@@ -148,43 +148,6 @@ X-WR-ALARMUID:codeforces-2272@cp-competitions-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:atcoder-ahc074@cp-competitions
-DTSTAMP:20261020T120855Z
-DTSTART:20261030T100000Z
-DTEND:20261109T100000Z
-SUMMARY:[AtCoder] HACK TO THE FUTURE 2027 (AtCoder Heuristic Contest 074)
-DESCRIPTION:HACK TO THE FUTURE 2027 (AtCoder Heuristic Contest 074)\n\n开
- 始：2026-10-30 10:00 UTC（北京时间 2026-10-30 18:00）\n时长：24
- 0 小时\n链接：https://atcoder.jp/contests/ahc074\n\n赛制：Heuristi
- c\nRated 范围：All\n\n由 cp-competitions 自动生成
-URL:https://atcoder.jp/contests/ahc074
-LOCATION:Online
-CATEGORIES:AtCoder,Heuristic
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:明天有比赛：HACK TO THE FUTURE 2027 (AtCoder Heuristic Co
- ntest 074)（AtCoder）
-TRIGGER:-P1D
-X-WR-ALARMUID:atcoder-ahc074@cp-competitions-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:3 小时后开赛：HACK TO THE FUTURE 2027 (AtCoder Heuristic 
- Contest 074)（AtCoder）
-TRIGGER:-PT3H
-X-WR-ALARMUID:atcoder-ahc074@cp-competitions-PT3H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 分钟后开赛：HACK TO THE FUTURE 2027 (AtCoder Heuristic
-  Contest 074)（AtCoder）
-TRIGGER:-PT15M
-X-WR-ALARMUID:atcoder-ahc074@cp-competitions-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:atcoder-abc482@cp-competitions
 DTSTAMP:20261020T120855Z
 DTSTART:20261031T120000Z
@@ -250,43 +213,6 @@ ACTION:DISPLAY
 DESCRIPTION:15 分钟后开赛：Codeforces Round (Div. 3)（Codeforces）
 TRIGGER:-PT15M
 X-WR-ALARMUID:codeforces-2278@cp-competitions-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:codeforces-2281@cp-competitions
-DTSTAMP:20261020T120855Z
-DTSTART:20261105T110000Z
-DTEND:20261119T110000Z
-SUMMARY:[Codeforces] ICPC 2026 Online Challenge 2 powered by Huawei
-DESCRIPTION:ICPC 2026 Online Challenge 2 powered by Huawei\n\n开始：2026
- -11-05 11:00 UTC（北京时间 2026-11-05 19:00）\n时长：336 小时\n
- 链接：https://codeforces.com/contest/2281\n\n赛制：IOI\n\n由 cp-com
- petitions 自动生成
-URL:https://codeforces.com/contest/2281
-LOCATION:Online
-CATEGORIES:Codeforces,IOI
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:明天有比赛：ICPC 2026 Online Challenge 2 powered by Huawe
- i（Codeforces）
-TRIGGER:-P1D
-X-WR-ALARMUID:codeforces-2281@cp-competitions-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:3 小时后开赛：ICPC 2026 Online Challenge 2 powered by Hua
- wei（Codeforces）
-TRIGGER:-PT3H
-X-WR-ALARMUID:codeforces-2281@cp-competitions-PT3H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 分钟后开赛：ICPC 2026 Online Challenge 2 powered by Hu
- awei（Codeforces）
-TRIGGER:-PT15M
-X-WR-ALARMUID:codeforces-2281@cp-competitions-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT

@@ -1,9 +1,9 @@
 name: Update calendar
 
 on:
-  # 每 3 天抓取一次（UTC 00:00 = 北京时间 08:00）
+  # 每天抓取一次（UTC 00:00 = 北京时间 08:00）
   schedule:
-    - cron: "0 0 */3 * *"
+    - cron: "0 0 * * *"
   # 支持手动触发，改完脚本后也能立刻跑一次
   workflow_dispatch:
   push:

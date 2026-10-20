@@ -1,6 +1,6 @@
 # cp-competitions
 
-AtCoder / Codeforces 近期比赛的日历订阅源（`.ics`），由 GitHub Actions 每 3 天自动抓取更新。
+AtCoder / Codeforces 近期比赛的日历订阅源（`.ics`），由 GitHub Actions 每天自动抓取更新。
 
 ## 订阅地址
 
@@ -29,6 +29,14 @@ AtCoder / Codeforces 近期比赛的日历订阅源（`.ics`），由 GitHub Act
 - **Outlook / Thunderbird**：支持 `VALARM`，按各自流程订阅即可。
 
 想改提醒时间，编辑 `scripts/build.py` 里的 `REMINDERS`（主订阅）和 `VARIANT_FEEDS`（变体），提交后 Actions 会自动重建。
+
+## 过滤规则
+
+**单场比赛时长 > 12 小时的，不写入日历。** 阈值在 `scripts/build.py` 的 `MAX_DURATION`（默认 `timedelta(hours=12)`），改完提交即可生效。
+
+- 被过滤的比赛不会出现在任何 `.ics` 里（主订阅和 `-1d` / `-3h` / `-15m` 变体都不写）；
+- 订阅页底部会单独列出这些被排除的比赛，方便确认过滤是否按预期工作；
+- 每次构建的日志里也会打印 `⏭️ 过滤掉 N 场……`。
 
 ## 数据来源
 
@@ -88,4 +96,5 @@ python3 scripts/build.py     # 仅用标准库，Python 3.9+
 - 时间统一以 UTC 写入 `DTSTART` / `DTEND`，客户端会按本地时区展示；描述里同时给出 UTC 和北京时间。
 - 事件内容没变化时沿用旧的 `DTSTAMP`，避免客户端把每次抓取都当成“比赛信息更新”。
 - 已经结束超过 6 小时的比赛会从订阅文件里移除（长赛程的 AHC 不会在开赛时突然消失）。
+- 时长严格大于 12 小时的比赛整体跳过（既不进 `.ics`，也不计入订阅页的“近期比赛”统计）。
 - 文件按 RFC 5545 折行到 75 字节以内，中文不会被截断在字符中间。

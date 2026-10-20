@@ -145,6 +145,7 @@
   .badge-atcoder { background: #eef2f6; color: #31475c; border-color: #e0e6ec; }
   .badge-codeforces { background: #e9f1fc; color: #15509e; border-color: #d8e6f8; }
   .empty { text-align: center; color: var(--muted); padding: 28px 0; }
+  .filter-note { margin: 0 0 14px; font-size: 13px; color: var(--muted); }
   footer { margin-top: 30px; text-align: center; font-size: 12.5px; color: var(--muted); }
   footer a { color: var(--muted); }
   .note {
@@ -186,7 +187,7 @@
       <span class="chip">⏰ 15 分钟前</span>
     </div>
     <div class="note">
-      数据每 3 天自动抓取一次。若你使用 Google 日历（订阅式日历只支持一个默认提醒），
+      数据每天自动抓取一次；时长超过 12 小时的比赛不会写入日历。若你使用 Google 日历（订阅式日历只支持一个默认提醒），
       可以改用单提醒变体：<code>cp-competitions-1d.ics</code> / <code>-3h.ics</code> / <code>-15m.ics</code>，
       分别订阅后在日历设置里把默认提醒设为对应时间。
     </div>
@@ -226,6 +227,8 @@
       </tbody>
     </table>
   </section>
+
+{{EXCLUDED}}
 
   <footer>
     数据来自 atcoder.jp 与 codeforces.com · 最近更新 {{UPDATED_AT}} ·

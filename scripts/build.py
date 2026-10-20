@@ -58,6 +58,10 @@ VARIANT_FEEDS: dict[str, tuple[timedelta, str]] = {
 # 已经结束超过这个时长的比赛不再输出（避免长赛程比赛刚开始就从日历里消失）
 KEEP_AFTER_END = timedelta(hours=6)
 
+# —— 过滤规则：单场比赛时长严格大于这个值时，不写进日历 ——
+# 12 小时以上的多为 heuristic / marathon / 长期作业类比赛，塞进日历会占掉大半天
+MAX_DURATION = timedelta(hours=12)
+
 FALLBACK_SITE_URL = "https://zhongyuwei.github.io/cp-competitions"
 
 
@@ -134,6 +138,15 @@ def prune(contests: list[Contest], now: datetime) -> list[Contest]:
     return kept
 
 
+def split_by_duration(contests: list[Contest]) -> tuple[list[Contest], list[Contest]]:
+    """按 MAX_DURATION 拆分：返回（可写入日历的, 因超长被排除的）。"""
+    kept: list[Contest] = []
+    skipped: list[Contest] = []
+    for contest in contests:
+        (skipped if contest.duration > MAX_DURATION else kept).append(contest)
+    return kept, skipped
+
+
 def apply_stamps(contests: list[Contest], state: dict, now: datetime) -> dict:
     """内容没变的事件沿用旧的 DTSTAMP，避免无意义的“更新”提示。"""
     stamps: dict[str, str] = {}
@@ -198,19 +211,46 @@ def write_calendars(contests: list[Contest], now: datetime, base_url: str) -> li
     return written
 
 
-def write_index(contests: list[Contest], now: datetime, base_url: str) -> Path:
-    rows = []
-    for contest in contests:
-        start = contest.start.astimezone(BEIJING)
-        rows.append(
-            "<tr>"
-            f'<td><span class="badge badge-{contest.source}">{html.escape(contest.source_label)}</span></td>'
-            f'<td class="name"><a href="{html.escape(contest.url)}" target="_blank" '
-            f'rel="noopener">{html.escape(contest.name)}</a></td>'
-            f'<td class="time">{start.strftime("%m-%d %H:%M")}'
-            f'<span class="weekday">周{"一二三四五六日"[start.weekday()]}</span></td>'
-            f'<td class="duration">{human_duration(contest.duration)}</td>'
-            "</tr>"
+def contest_row(contest: Contest) -> str:
+    start = contest.start.astimezone(BEIJING)
+    return (
+        "<tr>"
+        f'<td><span class="badge badge-{contest.source}">{html.escape(contest.source_label)}</span></td>'
+        f'<td class="name"><a href="{html.escape(contest.url)}" target="_blank" '
+        f'rel="noopener">{html.escape(contest.name)}</a></td>'
+        f'<td class="time">{start.strftime("%m-%d %H:%M")}'
+        f'<span class="weekday">周{"一二三四五六日"[start.weekday()]}</span></td>'
+        f'<td class="duration">{human_duration(contest.duration)}</td>'
+        "</tr>"
+    )
+
+
+def write_index(contests: list[Contest], excluded: list[Contest], now: datetime, base_url: str) -> Path:
+    rows = [contest_row(contest) for contest in contests]
+
+    if excluded:
+        excluded_block = (
+            '<section class="card">\n'
+            '    <div class="label">未写入日历</div>\n'
+            f'    <p class="filter-note">以下 {len(excluded)} 场比赛时长超过 '
+            f'{human_duration(MAX_DURATION)}，按过滤规则不写入日历订阅：</p>\n'
+            "    <table>\n"
+            "      <thead>\n"
+            "        <tr><th>来源</th><th>比赛</th><th>开始（北京时间）</th><th>时长</th></tr>\n"
+            "      </thead>\n"
+            "      <tbody>\n"
+            + "\n".join(contest_row(contest) for contest in excluded)
+            + "\n      </tbody>\n"
+            "    </table>\n"
+            "  </section>"
+        )
+    else:
+        excluded_block = (
+            '<section class="card">\n'
+            '    <div class="label">过滤规则</div>\n'
+            f'    <p class="filter-note">时长超过 {human_duration(MAX_DURATION)} 的比赛不会写入日历；'
+            "当前没有被排除的比赛。</p>\n"
+            "  </section>"
         )
 
     counts = {}
@@ -227,6 +267,7 @@ def write_index(contests: list[Contest], now: datetime, base_url: str) -> Path:
         "{{TOTAL}}": str(len(contests)),
         "{{SUMMARY}}": summary,
         "{{ROWS}}": "\n".join(rows) if rows else '<tr><td colspan="4" class="empty">暂无已排期的比赛</td></tr>',
+        "{{EXCLUDED}}": excluded_block,
         "{{FIRST_START}}": (
             contests[0].start.astimezone(BEIJING).strftime("%Y-%m-%d %H:%M")
             if contests
@@ -253,11 +294,20 @@ def main() -> int:
         return 1
 
     contests = prune(contests, now)
+    contests, excluded = split_by_duration(contests)
+    if excluded:
+        log(f"⏭️  过滤掉 {len(excluded)} 场时长超过 {human_duration(MAX_DURATION)} 的比赛（不写入日历）：")
+        for contest in excluded:
+            log(
+                f"   - [{contest.source_label}] {contest.start.astimezone(BEIJING):%Y-%m-%d %H:%M}"
+                f" {contest.name}（{human_duration(contest.duration)}）"
+            )
+
     stamps = apply_stamps(contests, state, now)
 
     base_url = site_url()
     written = write_calendars(contests, now, base_url)
-    write_index(contests, now, base_url)
+    write_index(contests, excluded, now, base_url)
 
     STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
     STATE_FILE.write_text(

@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-10-20T12:15:00+00:00",
+  "generated_at": "2026-10-20T12:26:35+00:00",
   "sources": {
     "atcoder": {
-      "fetched_at": "2026-10-20T12:15:01.209760+00:00",
+      "fetched_at": "2026-10-20T12:26:36.979286+00:00",
       "contests": [
         {
           "source": "atcoder",
@@ -106,7 +106,7 @@
       ]
     },
     "codeforces": {
-      "fetched_at": "2026-10-20T12:15:01.595514+00:00",
+      "fetched_at": "2026-10-20T12:26:41.764396+00:00",
       "contests": [
         {
           "source": "codeforces",
@@ -212,20 +212,12 @@
       "signature": "2026-10-26T14:35:00+00:00|8100|Codeforces Round (Div. 2)|https://codeforces.com/contest/2272",
       "stamp": "2026-10-20T12:08:55+00:00"
     },
-    "atcoder-ahc074@cp-competitions": {
-      "signature": "2026-10-30T10:00:00+00:00|864000|HACK TO THE FUTURE 2027 (AtCoder Heuristic Contest 074)|https://atcoder.jp/contests/ahc074",
-      "stamp": "2026-10-20T12:08:55+00:00"
-    },
     "atcoder-abc482@cp-competitions": {
       "signature": "2026-10-31T12:00:00+00:00|6000|AtCoder Beginner Contest 482|https://atcoder.jp/contests/abc482",
       "stamp": "2026-10-20T12:08:55+00:00"
     },
     "codeforces-2278@cp-competitions": {
       "signature": "2026-10-31T14:35:00+00:00|8100|Codeforces Round (Div. 3)|https://codeforces.com/contest/2278",
-      "stamp": "2026-10-20T12:08:55+00:00"
-    },
-    "codeforces-2281@cp-competitions": {
-      "signature": "2026-11-05T11:00:00+00:00|1209600|ICPC 2026 Online Challenge 2 powered by Huawei|https://codeforces.com/contest/2281",
       "stamp": "2026-10-20T12:08:55+00:00"
     },
     "atcoder-abc483@cp-competitions": {
@@ -246,6 +238,14 @@
     },
     "atcoder-abc484@cp-competitions": {
       "signature": "2026-11-14T12:00:00+00:00|6000|AtCoder Beginner Contest 484|https://atcoder.jp/contests/abc484",
+      "stamp": "2026-10-20T12:08:55+00:00"
+    },
+    "atcoder-ahc074@cp-competitions": {
+      "signature": "2026-10-30T10:00:00+00:00|864000|HACK TO THE FUTURE 2027 (AtCoder Heuristic Contest 074)|https://atcoder.jp/contests/ahc074",
+      "stamp": "2026-10-20T12:08:55+00:00"
+    },
+    "codeforces-2281@cp-competitions": {
+      "signature": "2026-11-05T11:00:00+00:00|1209600|ICPC 2026 Online Challenge 2 powered by Huawei|https://codeforces.com/contest/2281",
       "stamp": "2026-10-20T12:08:55+00:00"
     }
   }
