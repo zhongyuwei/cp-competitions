@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>cp-competitions · 竞赛日历订阅</title>
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --card: #ffffff;
+    --ink: #1b2430;
+    --muted: #6b7785;
+    --line: #e6e9ee;
+    --brand: #2f5fe0;
+    --brand-soft: #eef2fe;
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 48px 20px 72px;
+    background: var(--bg);
+    background-image: radial-gradient(900px 340px at 50% -120px, #e8edfb 0%, rgba(246,247,249,0) 70%);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+      "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 34px; }
+  h1 {
+    margin: 0 0 8px;
+    font-size: 30px;
+    letter-spacing: -0.02em;
+    font-family: var(--mono);
+    font-weight: 600;
+  }
+  header p { margin: 0; color: var(--muted); font-size: 14px; }
+  .stats { margin-top: 14px; font-size: 13px; color: var(--muted); }
+  .stats b { color: var(--ink); font-weight: 600; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 22px 24px;
+    box-shadow: 0 1px 2px rgba(16, 24, 40, .04), 0 8px 24px rgba(16, 24, 40, .04);
+  }
+  .card + .card { margin-top: 20px; }
+  .label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 10px;
+  }
+  .url-row { display: flex; gap: 10px; flex-wrap: wrap; align-items: stretch; }
+  .url {
+    flex: 1 1 320px;
+    min-width: 0;
+    padding: 11px 14px;
+    background: #f7f8fa;
+    border: 1px solid var(--line);
+    border-radius: 9px;
+    font-family: var(--mono);
+    font-size: 13px;
+    color: #2b3644;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  button, .btn {
+    flex: 0 0 auto;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    padding: 11px 18px;
+    font-size: 13.5px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--brand);
+    color: #fff;
+    transition: background .15s ease, transform .15s ease;
+  }
+  button:hover, .btn:hover { background: #234ec4; }
+  button:active, .btn:active { transform: translateY(1px); }
+  .btn-ghost {
+    background: #fff;
+    color: var(--ink);
+    border-color: var(--line);
+  }
+  .btn-ghost:hover { background: #f7f8fa; }
+  .alarms { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+  .chip {
+    font-size: 12.5px;
+    padding: 5px 12px;
+    border-radius: 999px;
+    background: var(--brand-soft);
+    color: #2b4aa8;
+    border: 1px solid #dfe6fb;
+  }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px 26px; }
+  .grid h3 { margin: 0 0 6px; font-size: 14px; }
+  .grid p { margin: 0; font-size: 13px; color: var(--muted); }
+  .grid code {
+    font-family: var(--mono);
+    font-size: 12px;
+    background: #f2f4f7;
+    padding: 1px 5px;
+    border-radius: 5px;
+    color: #33404f;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  th {
+    text-align: left;
+    font-size: 11.5px;
+    font-weight: 600;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--muted);
+    padding: 0 10px 10px;
+    border-bottom: 1px solid var(--line);
+  }
+  td { padding: 11px 10px; border-bottom: 1px solid #f1f3f6; vertical-align: middle; }
+  tr:last-child td { border-bottom: none; }
+  td.name { font-weight: 500; }
+  td.name a { color: var(--ink); text-decoration: none; }
+  td.name a:hover { color: var(--brand); text-decoration: underline; }
+  td.time { white-space: nowrap; font-family: var(--mono); font-size: 12.5px; color: #33404f; }
+  .weekday { color: var(--muted); margin-left: 6px; font-size: 11.5px; }
+  td.duration { white-space: nowrap; color: var(--muted); font-size: 12.5px; }
+  .badge {
+    display: inline-block;
+    padding: 2px 9px;
+    border-radius: 999px;
+    font-size: 11.5px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    white-space: nowrap;
+  }
+  .badge-atcoder { background: #eef2f6; color: #31475c; border-color: #e0e6ec; }
+  .badge-codeforces { background: #e9f1fc; color: #15509e; border-color: #d8e6f8; }
+  .empty { text-align: center; color: var(--muted); padding: 28px 0; }
+  footer { margin-top: 30px; text-align: center; font-size: 12.5px; color: var(--muted); }
+  footer a { color: var(--muted); }
+  .note {
+    margin-top: 14px;
+    font-size: 12.5px;
+    color: var(--muted);
+    border-left: 2px solid #dfe3ea;
+    padding-left: 12px;
+  }
+  @media (max-width: 560px) {
+    body { padding: 32px 14px 56px; }
+    h1 { font-size: 24px; }
+    .card { padding: 18px; }
+    td.time, td.duration { font-size: 12px; }
+    th:nth-child(4), td.duration { display: none; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>cp-competitions</h1>
+    <p>AtCoder / Codeforces 近期比赛日历订阅 · 自动更新</p>
+    <div class="stats">
+      共 <b>13</b> 场比赛（Codeforces 6 · AtCoder 7）· 最近一场 <b>2026-10-24 19:05</b>
+    </div>
+  </header>
+
+  <section class="card">
+    <div class="label">订阅地址</div>
+    <div class="url-row">
+      <div class="url" id="ics-url">https://zhongyuwei.github.io/cp-competitions/cp-competitions.ics</div>
+      <button type="button" id="copy-btn">复制链接</button>
+      <a class="btn btn-ghost" id="webcal-link" href="webcal://zhongyuwei.github.io/cp-competitions/cp-competitions.ics">一键订阅</a>
+    </div>
+    <div class="alarms">
+      <span class="chip">⏰ 比赛前一天</span>
+      <span class="chip">⏰ 3 小时前</span>
+      <span class="chip">⏰ 15 分钟前</span>
+    </div>
+    <div class="note">
+      数据每 3 天自动抓取一次。若你使用 Google 日历（订阅式日历只支持一个默认提醒），
+      可以改用单提醒变体：<code>cp-competitions-1d.ics</code> / <code>-3h.ics</code> / <code>-15m.ics</code>，
+      分别订阅后在日历设置里把默认提醒设为对应时间。
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="label">添加到日历</div>
+    <div class="grid">
+      <div>
+        <h3>Apple 日历 / iOS</h3>
+        <p>点「一键订阅」，或在日历 App 里选择「文件 → 新建日历订阅」粘贴上方链接。</p>
+      </div>
+      <div>
+        <h3>Google 日历</h3>
+        <p>其他日历 → 加号 → 通过网址添加，粘贴上方链接。</p>
+      </div>
+      <div>
+        <h3>Outlook / Thunderbird</h3>
+        <p>添加日历 → 从 Internet 订阅，粘贴上方链接即可。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="label">近期比赛</div>
+    <table>
+      <thead>
+        <tr>
+          <th>来源</th>
+          <th>比赛</th>
+          <th>开始（北京时间）</th>
+          <th>时长</th>
+        </tr>
+      </thead>
+      <tbody>
+<tr><td><span class="badge badge-codeforces">Codeforces</span></td><td class="name"><a href="https://codeforces.com/contest/2277" target="_blank" rel="noopener">Codeforces Round (Div. 2)</a></td><td class="time">10-24 19:05<span class="weekday">周六</span></td><td class="duration">2 小时</td></tr>
+<tr><td><span class="badge badge-atcoder">AtCoder</span></td><td class="name"><a href="https://atcoder.jp/contests/abc481" target="_blank" rel="noopener">SMBC Programming Contest #2 (AtCoder Beginner Contest 481）</a></td><td class="time">10-24 20:00<span class="weekday">周六</span></td><td class="duration">1 小时 40 分</td></tr>
+<tr><td><span class="badge badge-atcoder">AtCoder</span></td><td class="name"><a href="https://atcoder.jp/contests/arc233" target="_blank" rel="noopener">AtCoder Regular Contest++ 233</a></td><td class="time">10-25 20:00<span class="weekday">周日</span></td><td class="duration">2 小时 30 分</td></tr>
+<tr><td><span class="badge badge-codeforces">Codeforces</span></td><td class="name"><a href="https://codeforces.com/contest/2272" target="_blank" rel="noopener">Codeforces Round (Div. 2)</a></td><td class="time">10-26 22:35<span class="weekday">周一</span></td><td class="duration">2 小时 15 分</td></tr>
+<tr><td><span class="badge badge-atcoder">AtCoder</span></td><td class="name"><a href="https://atcoder.jp/contests/ahc074" target="_blank" rel="noopener">HACK TO THE FUTURE 2027 (AtCoder Heuristic Contest 074)</a></td><td class="time">10-30 18:00<span class="weekday">周五</span></td><td class="duration">240 小时</td></tr>
+<tr><td><span class="badge badge-atcoder">AtCoder</span></td><td class="name"><a href="https://atcoder.jp/contests/abc482" target="_blank" rel="noopener">AtCoder Beginner Contest 482</a></td><td class="time">10-31 20:00<span class="weekday">周六</span></td><td class="duration">1 小时 40 分</td></tr>
+<tr><td><span class="badge badge-codeforces">Codeforces</span></td><td class="name"><a href="https://codeforces.com/contest/2278" target="_blank" rel="noopener">Codeforces Round (Div. 3)</a></td><td class="time">10-31 22:35<span class="weekday">周六</span></td><td class="duration">2 小时 15 分</td></tr>
+<tr><td><span class="badge badge-codeforces">Codeforces</span></td><td class="name"><a href="https://codeforces.com/contest/2281" target="_blank" rel="noopener">ICPC 2026 Online Challenge 2 powered by Huawei</a></td><td class="time">11-05 19:00<span class="weekday">周四</span></td><td class="duration">336 小时</td></tr>
+<tr><td><span class="badge badge-atcoder">AtCoder</span></td><td class="name"><a href="https://atcoder.jp/contests/abc483" target="_blank" rel="noopener">AtCoder Beginner Contest 483</a></td><td class="time">11-07 20:00<span class="weekday">周六</span></td><td class="duration">1 小时 40 分</td></tr>
+<tr><td><span class="badge badge-codeforces">Codeforces</span></td><td class="name"><a href="https://codeforces.com/contest/2279" target="_blank" rel="noopener">Codeforces Round (Div. 1)</a></td><td class="time">11-07 22:35<span class="weekday">周六</span></td><td class="duration">2 小时 30 分</td></tr>
+<tr><td><span class="badge badge-codeforces">Codeforces</span></td><td class="name"><a href="https://codeforces.com/contest/2280" target="_blank" rel="noopener">Codeforces Round (Div. 2)</a></td><td class="time">11-07 22:35<span class="weekday">周六</span></td><td class="duration">2 小时 30 分</td></tr>
+<tr><td><span class="badge badge-atcoder">AtCoder</span></td><td class="name"><a href="https://atcoder.jp/contests/agc079" target="_blank" rel="noopener">AtCoder Grand Contest 079</a></td><td class="time">11-08 20:00<span class="weekday">周日</span></td><td class="duration">3 小时</td></tr>
+<tr><td><span class="badge badge-atcoder">AtCoder</span></td><td class="name"><a href="https://atcoder.jp/contests/abc484" target="_blank" rel="noopener">AtCoder Beginner Contest 484</a></td><td class="time">11-14 20:00<span class="weekday">周六</span></td><td class="duration">1 小时 40 分</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <footer>
+    数据来自 atcoder.jp 与 codeforces.com · 最近更新 2026-10-20 20:09（北京时间） ·
+    由 GitHub Actions 自动构建
+  </footer>
+</div>
+<script>
+  (function () {
+    var button = document.getElementById('copy-btn');
+    var url = document.getElementById('ics-url').textContent.trim();
+    button.addEventListener('click', function () {
+      var done = function () {
+        var original = button.textContent;
+        button.textContent = '已复制 ✓';
+        setTimeout(function () { button.textContent = original; }, 1600);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(done, function () { window.prompt('复制这个链接：', url); });
+      } else {
+        window.prompt('复制这个链接：', url);
+      }
+    });
+  })();
+</script>
+</body>
+</html>

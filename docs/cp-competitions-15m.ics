@@ -1,0 +1,301 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cp-competitions//CP Contest Calendar 15m//ZH
+CALSCALE:GREGORIAN
+X-WR-CALNAME:cp-competitions (15m)
+X-WR-CALDESC:AtCoder / Codeforces 近期比赛（自动更新） — 仅保
+ 留 15m 提醒
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:codeforces-2277@cp-competitions
+DTSTAMP:20261020T120855Z
+DTSTART:20261024T110500Z
+DTEND:20261024T130500Z
+SUMMARY:[Codeforces] Codeforces Round (Div. 2)
+DESCRIPTION:Codeforces Round (Div. 2)\n\n开始：2026-10-24 11:05 UTC（
+ 北京时间 2026-10-24 19:05）\n时长：2 小时\n链接：https://code
+ forces.com/contest/2277\n\n赛制：Codeforces Round\n\n由 cp-competition
+ s 自动生成
+URL:https://codeforces.com/contest/2277
+LOCATION:Online
+CATEGORIES:Codeforces,Codeforces Round
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：Codeforces Round (Div. 2)（Codeforces）
+TRIGGER:-PT15M
+X-WR-ALARMUID:codeforces-2277@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:atcoder-abc481@cp-competitions
+DTSTAMP:20261020T120855Z
+DTSTART:20261024T120000Z
+DTEND:20261024T134000Z
+SUMMARY:[AtCoder] SMBC Programming Contest #2 (AtCoder Beginner Contest 481
+ ）
+DESCRIPTION:SMBC Programming Contest #2 (AtCoder Beginner Contest 481）\n\
+ n开始：2026-10-24 12:00 UTC（北京时间 2026-10-24 20:00）\n时长
+ ：1 小时 40 分\n链接：https://atcoder.jp/contests/abc481\n\n赛制
+ ：Algorithm\nRated 范围：- 1999\n\n由 cp-competitions 自动生成
+URL:https://atcoder.jp/contests/abc481
+LOCATION:Online
+CATEGORIES:AtCoder,Algorithm
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：SMBC Programming Contest #2 (AtCoder Begin
+ ner Contest 481）（AtCoder）
+TRIGGER:-PT15M
+X-WR-ALARMUID:atcoder-abc481@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:atcoder-arc233@cp-competitions
+DTSTAMP:20261020T120855Z
+DTSTART:20261025T120000Z
+DTEND:20261025T143000Z
+SUMMARY:[AtCoder] AtCoder Regular Contest++ 233
+DESCRIPTION:AtCoder Regular Contest++ 233\n\n开始：2026-10-25 12:00 UTC
+ （北京时间 2026-10-25 20:00）\n时长：2 小时 30 分\n链接：ht
+ tps://atcoder.jp/contests/arc233\n\n赛制：Algorithm\nRated 范围：160
+ 0 - 2999\n\n由 cp-competitions 自动生成
+URL:https://atcoder.jp/contests/arc233
+LOCATION:Online
+CATEGORIES:AtCoder,Algorithm
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：AtCoder Regular Contest++ 233（AtCoder）
+TRIGGER:-PT15M
+X-WR-ALARMUID:atcoder-arc233@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:codeforces-2272@cp-competitions
+DTSTAMP:20261020T120855Z
+DTSTART:20261026T143500Z
+DTEND:20261026T165000Z
+SUMMARY:[Codeforces] Codeforces Round (Div. 2)
+DESCRIPTION:Codeforces Round (Div. 2)\n\n开始：2026-10-26 14:35 UTC（
+ 北京时间 2026-10-26 22:35）\n时长：2 小时 15 分\n链接：https
+ ://codeforces.com/contest/2272\n\n赛制：Codeforces Round\n\n由 cp-comp
+ etitions 自动生成
+URL:https://codeforces.com/contest/2272
+LOCATION:Online
+CATEGORIES:Codeforces,Codeforces Round
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：Codeforces Round (Div. 2)（Codeforces）
+TRIGGER:-PT15M
+X-WR-ALARMUID:codeforces-2272@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:atcoder-ahc074@cp-competitions
+DTSTAMP:20261020T120855Z
+DTSTART:20261030T100000Z
+DTEND:20261109T100000Z
+SUMMARY:[AtCoder] HACK TO THE FUTURE 2027 (AtCoder Heuristic Contest 074)
+DESCRIPTION:HACK TO THE FUTURE 2027 (AtCoder Heuristic Contest 074)\n\n开
+ 始：2026-10-30 10:00 UTC（北京时间 2026-10-30 18:00）\n时长：24
+ 0 小时\n链接：https://atcoder.jp/contests/ahc074\n\n赛制：Heuristi
+ c\nRated 范围：All\n\n由 cp-competitions 自动生成
+URL:https://atcoder.jp/contests/ahc074
+LOCATION:Online
+CATEGORIES:AtCoder,Heuristic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：HACK TO THE FUTURE 2027 (AtCoder Heuristic
+  Contest 074)（AtCoder）
+TRIGGER:-PT15M
+X-WR-ALARMUID:atcoder-ahc074@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:atcoder-abc482@cp-competitions
+DTSTAMP:20261020T120855Z
+DTSTART:20261031T120000Z
+DTEND:20261031T134000Z
+SUMMARY:[AtCoder] AtCoder Beginner Contest 482
+DESCRIPTION:AtCoder Beginner Contest 482\n\n开始：2026-10-31 12:00 UTC
+ （北京时间 2026-10-31 20:00）\n时长：1 小时 40 分\n链接：ht
+ tps://atcoder.jp/contests/abc482\n\n赛制：Algorithm\nRated 范围：- 1
+ 999\n\n由 cp-competitions 自动生成
+URL:https://atcoder.jp/contests/abc482
+LOCATION:Online
+CATEGORIES:AtCoder,Algorithm
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：AtCoder Beginner Contest 482（AtCoder）
+TRIGGER:-PT15M
+X-WR-ALARMUID:atcoder-abc482@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:codeforces-2278@cp-competitions
+DTSTAMP:20261020T120855Z
+DTSTART:20261031T143500Z
+DTEND:20261031T165000Z
+SUMMARY:[Codeforces] Codeforces Round (Div. 3)
+DESCRIPTION:Codeforces Round (Div. 3)\n\n开始：2026-10-31 14:35 UTC（
+ 北京时间 2026-10-31 22:35）\n时长：2 小时 15 分\n链接：https
+ ://codeforces.com/contest/2278\n\n赛制：ICPC\n\n由 cp-competitions 自
+ 动生成
+URL:https://codeforces.com/contest/2278
+LOCATION:Online
+CATEGORIES:Codeforces,ICPC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：Codeforces Round (Div. 3)（Codeforces）
+TRIGGER:-PT15M
+X-WR-ALARMUID:codeforces-2278@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:codeforces-2281@cp-competitions
+DTSTAMP:20261020T120855Z
+DTSTART:20261105T110000Z
+DTEND:20261119T110000Z
+SUMMARY:[Codeforces] ICPC 2026 Online Challenge 2 powered by Huawei
+DESCRIPTION:ICPC 2026 Online Challenge 2 powered by Huawei\n\n开始：2026
+ -11-05 11:00 UTC（北京时间 2026-11-05 19:00）\n时长：336 小时\n
+ 链接：https://codeforces.com/contest/2281\n\n赛制：IOI\n\n由 cp-com
+ petitions 自动生成
+URL:https://codeforces.com/contest/2281
+LOCATION:Online
+CATEGORIES:Codeforces,IOI
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：ICPC 2026 Online Challenge 2 powered by Hu
+ awei（Codeforces）
+TRIGGER:-PT15M
+X-WR-ALARMUID:codeforces-2281@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:atcoder-abc483@cp-competitions
+DTSTAMP:20261020T120855Z
+DTSTART:20261107T120000Z
+DTEND:20261107T134000Z
+SUMMARY:[AtCoder] AtCoder Beginner Contest 483
+DESCRIPTION:AtCoder Beginner Contest 483\n\n开始：2026-11-07 12:00 UTC
+ （北京时间 2026-11-07 20:00）\n时长：1 小时 40 分\n链接：ht
+ tps://atcoder.jp/contests/abc483\n\n赛制：Algorithm\nRated 范围：- 1
+ 999\n\n由 cp-competitions 自动生成
+URL:https://atcoder.jp/contests/abc483
+LOCATION:Online
+CATEGORIES:AtCoder,Algorithm
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：AtCoder Beginner Contest 483（AtCoder）
+TRIGGER:-PT15M
+X-WR-ALARMUID:atcoder-abc483@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:codeforces-2279@cp-competitions
+DTSTAMP:20261020T120855Z
+DTSTART:20261107T143500Z
+DTEND:20261107T170500Z
+SUMMARY:[Codeforces] Codeforces Round (Div. 1)
+DESCRIPTION:Codeforces Round (Div. 1)\n\n开始：2026-11-07 14:35 UTC（
+ 北京时间 2026-11-07 22:35）\n时长：2 小时 30 分\n链接：https
+ ://codeforces.com/contest/2279\n\n赛制：Codeforces Round\n\n由 cp-comp
+ etitions 自动生成
+URL:https://codeforces.com/contest/2279
+LOCATION:Online
+CATEGORIES:Codeforces,Codeforces Round
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：Codeforces Round (Div. 1)（Codeforces）
+TRIGGER:-PT15M
+X-WR-ALARMUID:codeforces-2279@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:codeforces-2280@cp-competitions
+DTSTAMP:20261020T120855Z
+DTSTART:20261107T143500Z
+DTEND:20261107T170500Z
+SUMMARY:[Codeforces] Codeforces Round (Div. 2)
+DESCRIPTION:Codeforces Round (Div. 2)\n\n开始：2026-11-07 14:35 UTC（
+ 北京时间 2026-11-07 22:35）\n时长：2 小时 30 分\n链接：https
+ ://codeforces.com/contest/2280\n\n赛制：Codeforces Round\n\n由 cp-comp
+ etitions 自动生成
+URL:https://codeforces.com/contest/2280
+LOCATION:Online
+CATEGORIES:Codeforces,Codeforces Round
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：Codeforces Round (Div. 2)（Codeforces）
+TRIGGER:-PT15M
+X-WR-ALARMUID:codeforces-2280@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:atcoder-agc079@cp-competitions
+DTSTAMP:20261020T120855Z
+DTSTART:20261108T120000Z
+DTEND:20261108T150000Z
+SUMMARY:[AtCoder] AtCoder Grand Contest 079
+DESCRIPTION:AtCoder Grand Contest 079\n\n开始：2026-11-08 12:00 UTC（
+ 北京时间 2026-11-08 20:00）\n时长：3 小时\n链接：https://atco
+ der.jp/contests/agc079\n\n赛制：Algorithm\nRated 范围：2000 -\n\n由
+  cp-competitions 自动生成
+URL:https://atcoder.jp/contests/agc079
+LOCATION:Online
+CATEGORIES:AtCoder,Algorithm
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：AtCoder Grand Contest 079（AtCoder）
+TRIGGER:-PT15M
+X-WR-ALARMUID:atcoder-agc079@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:atcoder-abc484@cp-competitions
+DTSTAMP:20261020T120855Z
+DTSTART:20261114T120000Z
+DTEND:20261114T134000Z
+SUMMARY:[AtCoder] AtCoder Beginner Contest 484
+DESCRIPTION:AtCoder Beginner Contest 484\n\n开始：2026-11-14 12:00 UTC
+ （北京时间 2026-11-14 20:00）\n时长：1 小时 40 分\n链接：ht
+ tps://atcoder.jp/contests/abc484\n\n赛制：Algorithm\nRated 范围：- 1
+ 999\n\n由 cp-competitions 自动生成
+URL:https://atcoder.jp/contests/abc484
+LOCATION:Online
+CATEGORIES:AtCoder,Algorithm
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：AtCoder Beginner Contest 484（AtCoder）
+TRIGGER:-PT15M
+X-WR-ALARMUID:atcoder-abc484@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
