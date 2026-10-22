@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-10-21T03:42:21+00:00",
+  "generated_at": "2026-10-22T03:41:45+00:00",
   "sources": {
     "atcoder": {
-      "fetched_at": "2026-10-21T03:42:21.708974+00:00",
+      "fetched_at": "2026-10-22T03:41:45.738997+00:00",
       "contests": [
         {
           "source": "atcoder",
@@ -106,7 +106,7 @@
       ]
     },
     "codeforces": {
-      "fetched_at": "2026-10-21T03:42:22.048963+00:00",
+      "fetched_at": "2026-10-22T03:41:46.084996+00:00",
       "contests": [
         {
           "source": "codeforces",
@@ -154,7 +154,7 @@
           "source": "codeforces",
           "source_label": "Codeforces",
           "uid": "codeforces-2278@cp-competitions",
-          "name": "Codeforces Round (Div. 3)",
+          "name": "Codeforces Round 1131 (Div. 3)",
           "start": "2026-10-31T14:35:00+00:00",
           "duration": 8100,
           "url": "https://codeforces.com/contest/2278",
@@ -168,7 +168,7 @@
           "source": "codeforces",
           "source_label": "Codeforces",
           "uid": "codeforces-2272@cp-competitions",
-          "name": "Codeforces Round (Div. 2)",
+          "name": "Codeforces Round 1130 (Div. 2)",
           "start": "2026-10-26T14:35:00+00:00",
           "duration": 8100,
           "url": "https://codeforces.com/contest/2272",
@@ -182,7 +182,7 @@
           "source": "codeforces",
           "source_label": "Codeforces",
           "uid": "codeforces-2277@cp-competitions",
-          "name": "Codeforces Round (Div. 2)",
+          "name": "Codeforces Round 1129 (Div. 2)",
           "start": "2026-10-24T11:05:00+00:00",
           "duration": 7200,
           "url": "https://codeforces.com/contest/2277",
@@ -197,8 +197,8 @@
   },
   "stamps": {
     "codeforces-2277@cp-competitions": {
-      "signature": "2026-10-24T11:05:00+00:00|7200|Codeforces Round (Div. 2)|https://codeforces.com/contest/2277",
-      "stamp": "2026-10-20T12:08:55+00:00"
+      "signature": "2026-10-24T11:05:00+00:00|7200|Codeforces Round 1129 (Div. 2)|https://codeforces.com/contest/2277",
+      "stamp": "2026-10-22T03:41:45+00:00"
     },
     "atcoder-abc481@cp-competitions": {
       "signature": "2026-10-24T12:00:00+00:00|6000|SMBC Programming Contest #2 (AtCoder Beginner Contest 481）|https://atcoder.jp/contests/abc481",
@@ -209,16 +209,16 @@
       "stamp": "2026-10-20T12:08:55+00:00"
     },
     "codeforces-2272@cp-competitions": {
-      "signature": "2026-10-26T14:35:00+00:00|8100|Codeforces Round (Div. 2)|https://codeforces.com/contest/2272",
-      "stamp": "2026-10-20T12:08:55+00:00"
+      "signature": "2026-10-26T14:35:00+00:00|8100|Codeforces Round 1130 (Div. 2)|https://codeforces.com/contest/2272",
+      "stamp": "2026-10-22T03:41:45+00:00"
     },
     "atcoder-abc482@cp-competitions": {
       "signature": "2026-10-31T12:00:00+00:00|6000|AtCoder Beginner Contest 482|https://atcoder.jp/contests/abc482",
       "stamp": "2026-10-20T12:08:55+00:00"
     },
     "codeforces-2278@cp-competitions": {
-      "signature": "2026-10-31T14:35:00+00:00|8100|Codeforces Round (Div. 3)|https://codeforces.com/contest/2278",
-      "stamp": "2026-10-20T12:08:55+00:00"
+      "signature": "2026-10-31T14:35:00+00:00|8100|Codeforces Round 1131 (Div. 3)|https://codeforces.com/contest/2278",
+      "stamp": "2026-10-22T03:41:45+00:00"
     },
     "atcoder-abc483@cp-competitions": {
       "signature": "2026-11-07T12:00:00+00:00|6000|AtCoder Beginner Contest 483|https://atcoder.jp/contests/abc483",
