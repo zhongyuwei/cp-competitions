@@ -10,14 +10,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:codeforces-2277@cp-competitions
-DTSTAMP:20261022T034145Z
+DTSTAMP:20261024T034034Z
 DTSTART:20261024T110500Z
-DTEND:20261024T130500Z
+DTEND:20261024T132000Z
 SUMMARY:[Codeforces] Codeforces Round 1129 (Div. 2)
 DESCRIPTION:Codeforces Round 1129 (Div. 2)\n\n开始：2026-10-24 11:05 UTC
- （北京时间 2026-10-24 19:05）\n时长：2 小时\n链接：https://c
- odeforces.com/contest/2277\n\n赛制：Codeforces Round\n\n由 cp-competit
- ions 自动生成
+ （北京时间 2026-10-24 19:05）\n时长：2 小时 15 分\n链接：ht
+ tps://codeforces.com/contest/2277\n\n赛制：Codeforces Round\n\n由 cp-c
+ ompetitions 自动生成
 URL:https://codeforces.com/contest/2277
 LOCATION:Online
 CATEGORIES:Codeforces,Codeforces Round
