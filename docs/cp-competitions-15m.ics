@@ -9,53 +9,6 @@ X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:codeforces-2277@cp-competitions
-DTSTAMP:20261024T034034Z
-DTSTART:20261024T110500Z
-DTEND:20261024T132000Z
-SUMMARY:[Codeforces] Codeforces Round 1129 (Div. 2)
-DESCRIPTION:Codeforces Round 1129 (Div. 2)\n\n开始：2026-10-24 11:05 UTC
- （北京时间 2026-10-24 19:05）\n时长：2 小时 15 分\n链接：ht
- tps://codeforces.com/contest/2277\n\n赛制：Codeforces Round\n\n由 cp-c
- ompetitions 自动生成
-URL:https://codeforces.com/contest/2277
-LOCATION:Online
-CATEGORIES:Codeforces,Codeforces Round
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 分钟后开赛：Codeforces Round 1129 (Div. 2)（Codeforce
- s）
-TRIGGER:-PT15M
-X-WR-ALARMUID:codeforces-2277@cp-competitions-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:atcoder-abc481@cp-competitions
-DTSTAMP:20261020T120855Z
-DTSTART:20261024T120000Z
-DTEND:20261024T134000Z
-SUMMARY:[AtCoder] SMBC Programming Contest #2 (AtCoder Beginner Contest 481
- ）
-DESCRIPTION:SMBC Programming Contest #2 (AtCoder Beginner Contest 481）\n\
- n开始：2026-10-24 12:00 UTC（北京时间 2026-10-24 20:00）\n时长
- ：1 小时 40 分\n链接：https://atcoder.jp/contests/abc481\n\n赛制
- ：Algorithm\nRated 范围：- 1999\n\n由 cp-competitions 自动生成
-URL:https://atcoder.jp/contests/abc481
-LOCATION:Online
-CATEGORIES:AtCoder,Algorithm
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 分钟后开赛：SMBC Programming Contest #2 (AtCoder Begin
- ner Contest 481）（AtCoder）
-TRIGGER:-PT15M
-X-WR-ALARMUID:atcoder-abc481@cp-competitions-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:atcoder-arc233@cp-competitions
 DTSTAMP:20261020T120855Z
 DTSTART:20261025T120000Z

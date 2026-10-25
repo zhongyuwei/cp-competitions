@@ -1,24 +1,10 @@
 {
   "version": 1,
-  "generated_at": "2026-10-24T03:40:34+00:00",
+  "generated_at": "2026-10-25T03:38:15+00:00",
   "sources": {
     "atcoder": {
-      "fetched_at": "2026-10-24T03:40:35.392237+00:00",
+      "fetched_at": "2026-10-25T03:38:16.694046+00:00",
       "contests": [
-        {
-          "source": "atcoder",
-          "source_label": "AtCoder",
-          "uid": "atcoder-abc481@cp-competitions",
-          "name": "SMBC Programming Contest #2 (AtCoder Beginner Contest 481）",
-          "start": "2026-10-24T12:00:00+00:00",
-          "duration": 6000,
-          "url": "https://atcoder.jp/contests/abc481",
-          "detail": "赛制：Algorithm\nRated 范围：- 1999",
-          "categories": [
-            "AtCoder",
-            "Algorithm"
-          ]
-        },
         {
           "source": "atcoder",
           "source_label": "AtCoder",
@@ -106,7 +92,7 @@
       ]
     },
     "codeforces": {
-      "fetched_at": "2026-10-24T03:40:35.944010+00:00",
+      "fetched_at": "2026-10-25T03:38:17.081346+00:00",
       "contests": [
         {
           "source": "codeforces",
@@ -177,33 +163,11 @@
             "Codeforces",
             "Codeforces Round"
           ]
-        },
-        {
-          "source": "codeforces",
-          "source_label": "Codeforces",
-          "uid": "codeforces-2277@cp-competitions",
-          "name": "Codeforces Round 1129 (Div. 2)",
-          "start": "2026-10-24T11:05:00+00:00",
-          "duration": 8100,
-          "url": "https://codeforces.com/contest/2277",
-          "detail": "赛制：Codeforces Round",
-          "categories": [
-            "Codeforces",
-            "Codeforces Round"
-          ]
         }
       ]
     }
   },
   "stamps": {
-    "codeforces-2277@cp-competitions": {
-      "signature": "2026-10-24T11:05:00+00:00|8100|Codeforces Round 1129 (Div. 2)|https://codeforces.com/contest/2277",
-      "stamp": "2026-10-24T03:40:34+00:00"
-    },
-    "atcoder-abc481@cp-competitions": {
-      "signature": "2026-10-24T12:00:00+00:00|6000|SMBC Programming Contest #2 (AtCoder Beginner Contest 481）|https://atcoder.jp/contests/abc481",
-      "stamp": "2026-10-20T12:08:55+00:00"
-    },
     "atcoder-arc233@cp-competitions": {
       "signature": "2026-10-25T12:00:00+00:00|9000|AtCoder Regular Contest++ 233|https://atcoder.jp/contests/arc233",
       "stamp": "2026-10-20T12:08:55+00:00"
@@ -238,6 +202,14 @@
     },
     "atcoder-abc484@cp-competitions": {
       "signature": "2026-11-14T12:00:00+00:00|6000|AtCoder Beginner Contest 484|https://atcoder.jp/contests/abc484",
+      "stamp": "2026-10-20T12:08:55+00:00"
+    },
+    "codeforces-2277@cp-competitions": {
+      "signature": "2026-10-24T11:05:00+00:00|8100|Codeforces Round 1129 (Div. 2)|https://codeforces.com/contest/2277",
+      "stamp": "2026-10-24T03:40:34+00:00"
+    },
+    "atcoder-abc481@cp-competitions": {
+      "signature": "2026-10-24T12:00:00+00:00|6000|SMBC Programming Contest #2 (AtCoder Beginner Contest 481）|https://atcoder.jp/contests/abc481",
       "stamp": "2026-10-20T12:08:55+00:00"
     },
     "atcoder-ahc074@cp-competitions": {
