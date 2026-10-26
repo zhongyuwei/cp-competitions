@@ -8,40 +8,6 @@ X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:atcoder-arc233@cp-competitions
-DTSTAMP:20261020T120855Z
-DTSTART:20261025T120000Z
-DTEND:20261025T143000Z
-SUMMARY:[AtCoder] AtCoder Regular Contest++ 233
-DESCRIPTION:AtCoder Regular Contest++ 233\n\n开始：2026-10-25 12:00 UTC
- （北京时间 2026-10-25 20:00）\n时长：2 小时 30 分\n链接：ht
- tps://atcoder.jp/contests/arc233\n\n赛制：Algorithm\nRated 范围：160
- 0 - 2999\n\n由 cp-competitions 自动生成
-URL:https://atcoder.jp/contests/arc233
-LOCATION:Online
-CATEGORIES:AtCoder,Algorithm
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:明天有比赛：AtCoder Regular Contest++ 233（AtCoder）
-TRIGGER:-P1D
-X-WR-ALARMUID:atcoder-arc233@cp-competitions-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:3 小时后开赛：AtCoder Regular Contest++ 233（AtCoder）
-TRIGGER:-PT3H
-X-WR-ALARMUID:atcoder-arc233@cp-competitions-PT3H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 分钟后开赛：AtCoder Regular Contest++ 233（AtCoder）
-TRIGGER:-PT15M
-X-WR-ALARMUID:atcoder-arc233@cp-competitions-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:codeforces-2272@cp-competitions
 DTSTAMP:20261022T034145Z
 DTSTART:20261026T143500Z
@@ -317,6 +283,74 @@ ACTION:DISPLAY
 DESCRIPTION:15 分钟后开赛：AtCoder Beginner Contest 484（AtCoder）
 TRIGGER:-PT15M
 X-WR-ALARMUID:atcoder-abc484@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:atcoder-arc234@cp-competitions
+DTSTAMP:20261026T034123Z
+DTSTART:20261122T120000Z
+DTEND:20261122T143000Z
+SUMMARY:[AtCoder] AtCoder Regular Contest++ 234
+DESCRIPTION:AtCoder Regular Contest++ 234\n\n开始：2026-11-22 12:00 UTC
+ （北京时间 2026-11-22 20:00）\n时长：2 小时 30 分\n链接：ht
+ tps://atcoder.jp/contests/arc234\n\n赛制：Algorithm\nRated 范围：160
+ 0 - 2999\n\n由 cp-competitions 自动生成
+URL:https://atcoder.jp/contests/arc234
+LOCATION:Online
+CATEGORIES:AtCoder,Algorithm
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:明天有比赛：AtCoder Regular Contest++ 234（AtCoder）
+TRIGGER:-P1D
+X-WR-ALARMUID:atcoder-arc234@cp-competitions-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:3 小时后开赛：AtCoder Regular Contest++ 234（AtCoder）
+TRIGGER:-PT3H
+X-WR-ALARMUID:atcoder-arc234@cp-competitions-PT3H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：AtCoder Regular Contest++ 234（AtCoder）
+TRIGGER:-PT15M
+X-WR-ALARMUID:atcoder-arc234@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:codeforces-2282@cp-competitions
+DTSTAMP:20261026T034123Z
+DTSTART:20261127T143500Z
+DTEND:20261127T170500Z
+SUMMARY:[Codeforces] Kotlin Heroes: Episode 15
+DESCRIPTION:Kotlin Heroes: Episode 15\n\n开始：2026-11-27 14:35 UTC（
+ 北京时间 2026-11-27 22:35）\n时长：2 小时 30 分\n链接：https
+ ://codeforces.com/contest/2282\n\n赛制：ICPC\n\n由 cp-competitions 自
+ 动生成
+URL:https://codeforces.com/contest/2282
+LOCATION:Online
+CATEGORIES:Codeforces,ICPC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:明天有比赛：Kotlin Heroes: Episode 15（Codeforces）
+TRIGGER:-P1D
+X-WR-ALARMUID:codeforces-2282@cp-competitions-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:3 小时后开赛：Kotlin Heroes: Episode 15（Codeforces）
+TRIGGER:-PT3H
+X-WR-ALARMUID:codeforces-2282@cp-competitions-PT3H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：Kotlin Heroes: Episode 15（Codeforces）
+TRIGGER:-PT15M
+X-WR-ALARMUID:codeforces-2282@cp-competitions-PT15M
 END:VALARM
 END:VEVENT
 END:VCALENDAR

@@ -1,24 +1,10 @@
 {
   "version": 1,
-  "generated_at": "2026-10-25T03:38:15+00:00",
+  "generated_at": "2026-10-26T03:41:23+00:00",
   "sources": {
     "atcoder": {
-      "fetched_at": "2026-10-25T03:38:16.694046+00:00",
+      "fetched_at": "2026-10-26T03:41:23.918117+00:00",
       "contests": [
-        {
-          "source": "atcoder",
-          "source_label": "AtCoder",
-          "uid": "atcoder-arc233@cp-competitions",
-          "name": "AtCoder Regular Contest++ 233",
-          "start": "2026-10-25T12:00:00+00:00",
-          "duration": 9000,
-          "url": "https://atcoder.jp/contests/arc233",
-          "detail": "赛制：Algorithm\nRated 范围：1600 - 2999",
-          "categories": [
-            "AtCoder",
-            "Algorithm"
-          ]
-        },
         {
           "source": "atcoder",
           "source_label": "AtCoder",
@@ -88,12 +74,40 @@
             "AtCoder",
             "Algorithm"
           ]
+        },
+        {
+          "source": "atcoder",
+          "source_label": "AtCoder",
+          "uid": "atcoder-arc234@cp-competitions",
+          "name": "AtCoder Regular Contest++ 234",
+          "start": "2026-11-22T12:00:00+00:00",
+          "duration": 9000,
+          "url": "https://atcoder.jp/contests/arc234",
+          "detail": "赛制：Algorithm\nRated 范围：1600 - 2999",
+          "categories": [
+            "AtCoder",
+            "Algorithm"
+          ]
         }
       ]
     },
     "codeforces": {
-      "fetched_at": "2026-10-25T03:38:17.081346+00:00",
+      "fetched_at": "2026-10-26T03:41:24.288416+00:00",
       "contests": [
+        {
+          "source": "codeforces",
+          "source_label": "Codeforces",
+          "uid": "codeforces-2282@cp-competitions",
+          "name": "Kotlin Heroes: Episode 15",
+          "start": "2026-11-27T14:35:00+00:00",
+          "duration": 9000,
+          "url": "https://codeforces.com/contest/2282",
+          "detail": "赛制：ICPC",
+          "categories": [
+            "Codeforces",
+            "ICPC"
+          ]
+        },
         {
           "source": "codeforces",
           "source_label": "Codeforces",
@@ -168,10 +182,6 @@
     }
   },
   "stamps": {
-    "atcoder-arc233@cp-competitions": {
-      "signature": "2026-10-25T12:00:00+00:00|9000|AtCoder Regular Contest++ 233|https://atcoder.jp/contests/arc233",
-      "stamp": "2026-10-20T12:08:55+00:00"
-    },
     "codeforces-2272@cp-competitions": {
       "signature": "2026-10-26T14:35:00+00:00|8100|Codeforces Round 1130 (Div. 2)|https://codeforces.com/contest/2272",
       "stamp": "2026-10-22T03:41:45+00:00"
@@ -202,6 +212,18 @@
     },
     "atcoder-abc484@cp-competitions": {
       "signature": "2026-11-14T12:00:00+00:00|6000|AtCoder Beginner Contest 484|https://atcoder.jp/contests/abc484",
+      "stamp": "2026-10-20T12:08:55+00:00"
+    },
+    "atcoder-arc234@cp-competitions": {
+      "signature": "2026-11-22T12:00:00+00:00|9000|AtCoder Regular Contest++ 234|https://atcoder.jp/contests/arc234",
+      "stamp": "2026-10-26T03:41:23+00:00"
+    },
+    "codeforces-2282@cp-competitions": {
+      "signature": "2026-11-27T14:35:00+00:00|9000|Kotlin Heroes: Episode 15|https://codeforces.com/contest/2282",
+      "stamp": "2026-10-26T03:41:23+00:00"
+    },
+    "atcoder-arc233@cp-competitions": {
+      "signature": "2026-10-25T12:00:00+00:00|9000|AtCoder Regular Contest++ 233|https://atcoder.jp/contests/arc233",
       "stamp": "2026-10-20T12:08:55+00:00"
     },
     "codeforces-2277@cp-competitions": {
