@@ -9,29 +9,6 @@ X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:codeforces-2272@cp-competitions
-DTSTAMP:20261022T034145Z
-DTSTART:20261026T143500Z
-DTEND:20261026T165000Z
-SUMMARY:[Codeforces] Codeforces Round 1130 (Div. 2)
-DESCRIPTION:Codeforces Round 1130 (Div. 2)\n\n开始：2026-10-26 14:35 UTC
- （北京时间 2026-10-26 22:35）\n时长：2 小时 15 分\n链接：ht
- tps://codeforces.com/contest/2272\n\n赛制：Codeforces Round\n\n由 cp-c
- ompetitions 自动生成
-URL:https://codeforces.com/contest/2272
-LOCATION:Online
-CATEGORIES:Codeforces,Codeforces Round
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:明天有比赛：Codeforces Round 1130 (Div. 2)（Codeforces
- ）
-TRIGGER:-P1D
-X-WR-ALARMUID:codeforces-2272@cp-competitions-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:atcoder-abc482@cp-competitions
 DTSTAMP:20261020T120855Z
 DTSTART:20261031T120000Z
@@ -74,6 +51,51 @@ DESCRIPTION:明天有比赛：Codeforces Round 1131 (Div. 3)（Codeforces
  ）
 TRIGGER:-P1D
 X-WR-ALARMUID:codeforces-2278@cp-competitions-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:codeforces-2283@cp-competitions
+DTSTAMP:20261027T040454Z
+DTSTART:20261104T143500Z
+DTEND:20261104T163500Z
+SUMMARY:[Codeforces] Educational Codeforces Round 196 (Rated for Div. 2)
+DESCRIPTION:Educational Codeforces Round 196 (Rated for Div. 2)\n\n开始
+ ：2026-11-04 14:35 UTC（北京时间 2026-11-04 22:35）\n时长：2 小
+ 时\n链接：https://codeforces.com/contest/2283\n\n赛制：ICPC\n\n由 
+ cp-competitions 自动生成
+URL:https://codeforces.com/contest/2283
+LOCATION:Online
+CATEGORIES:Codeforces,ICPC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:明天有比赛：Educational Codeforces Round 196 (Rated for D
+ iv. 2)（Codeforces）
+TRIGGER:-P1D
+X-WR-ALARMUID:codeforces-2283@cp-competitions-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:codeforces-2284@cp-competitions
+DTSTAMP:20261027T040454Z
+DTSTART:20261106T143500Z
+DTEND:20261106T165000Z
+SUMMARY:[Codeforces] Codeforces Round (Div. 2)
+DESCRIPTION:Codeforces Round (Div. 2)\n\n开始：2026-11-06 14:35 UTC（
+ 北京时间 2026-11-06 22:35）\n时长：2 小时 15 分\n链接：https
+ ://codeforces.com/contest/2284\n\n赛制：Codeforces Round\n\n由 cp-comp
+ etitions 自动生成
+URL:https://codeforces.com/contest/2284
+LOCATION:Online
+CATEGORIES:Codeforces,Codeforces Round
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:明天有比赛：Codeforces Round (Div. 2)（Codeforces）
+TRIGGER:-P1D
+X-WR-ALARMUID:codeforces-2284@cp-competitions-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -184,6 +206,50 @@ ACTION:DISPLAY
 DESCRIPTION:明天有比赛：AtCoder Beginner Contest 484（AtCoder）
 TRIGGER:-P1D
 X-WR-ALARMUID:atcoder-abc484@cp-competitions-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:codeforces-2285@cp-competitions
+DTSTAMP:20261027T040454Z
+DTSTART:20261115T143500Z
+DTEND:20261115T163500Z
+SUMMARY:[Codeforces] Codeforces Round (Div. 2)
+DESCRIPTION:Codeforces Round (Div. 2)\n\n开始：2026-11-15 14:35 UTC（
+ 北京时间 2026-11-15 22:35）\n时长：2 小时\n链接：https://code
+ forces.com/contest/2285\n\n赛制：Codeforces Round\n\n由 cp-competition
+ s 自动生成
+URL:https://codeforces.com/contest/2285
+LOCATION:Online
+CATEGORIES:Codeforces,Codeforces Round
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:明天有比赛：Codeforces Round (Div. 2)（Codeforces）
+TRIGGER:-P1D
+X-WR-ALARMUID:codeforces-2285@cp-competitions-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:atcoder-abc485@cp-competitions
+DTSTAMP:20261027T040454Z
+DTSTART:20261121T120000Z
+DTEND:20261121T134000Z
+SUMMARY:[AtCoder] AtCoder Beginner Contest 485
+DESCRIPTION:AtCoder Beginner Contest 485\n\n开始：2026-11-21 12:00 UTC
+ （北京时间 2026-11-21 20:00）\n时长：1 小时 40 分\n链接：ht
+ tps://atcoder.jp/contests/abc485\n\n赛制：Algorithm\nRated 范围：- 1
+ 999\n\n由 cp-competitions 自动生成
+URL:https://atcoder.jp/contests/abc485
+LOCATION:Online
+CATEGORIES:AtCoder,Algorithm
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:明天有比赛：AtCoder Beginner Contest 485（AtCoder）
+TRIGGER:-P1D
+X-WR-ALARMUID:atcoder-abc485@cp-competitions-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
