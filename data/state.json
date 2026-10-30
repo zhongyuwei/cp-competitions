@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-10-29T04:47:41+00:00",
+  "generated_at": "2026-10-30T04:47:15+00:00",
   "sources": {
     "atcoder": {
-      "fetched_at": "2026-10-29T04:47:41.894693+00:00",
+      "fetched_at": "2026-10-30T04:47:16.361965+00:00",
       "contests": [
         {
           "source": "atcoder",
@@ -106,7 +106,7 @@
       ]
     },
     "codeforces": {
-      "fetched_at": "2026-10-29T04:47:42.286572+00:00",
+      "fetched_at": "2026-10-30T04:47:16.650455+00:00",
       "contests": [
         {
           "source": "codeforces",
@@ -116,6 +116,20 @@
           "start": "2026-11-27T14:35:00+00:00",
           "duration": 9000,
           "url": "https://codeforces.com/contest/2282",
+          "detail": "赛制：ICPC",
+          "categories": [
+            "Codeforces",
+            "ICPC"
+          ]
+        },
+        {
+          "source": "codeforces",
+          "source_label": "Codeforces",
+          "uid": "codeforces-2286@cp-competitions",
+          "name": "Kotlin Heroes: Practice 15",
+          "start": "2026-11-20T14:30:00+00:00",
+          "duration": 604800,
+          "url": "https://codeforces.com/contest/2286",
           "detail": "赛制：ICPC",
           "categories": [
             "Codeforces",
