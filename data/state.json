@@ -1,24 +1,10 @@
 {
   "version": 1,
-  "generated_at": "2026-10-30T04:47:15+00:00",
+  "generated_at": "2026-10-31T04:31:57+00:00",
   "sources": {
     "atcoder": {
-      "fetched_at": "2026-10-30T04:47:16.361965+00:00",
+      "fetched_at": "2026-10-31T04:31:58.371269+00:00",
       "contests": [
-        {
-          "source": "atcoder",
-          "source_label": "AtCoder",
-          "uid": "atcoder-ahc074@cp-competitions",
-          "name": "HACK TO THE FUTURE 2027 (AtCoder Heuristic Contest 074)",
-          "start": "2026-10-30T10:00:00+00:00",
-          "duration": 864000,
-          "url": "https://atcoder.jp/contests/ahc074",
-          "detail": "赛制：Heuristic\nRated 范围：All",
-          "categories": [
-            "AtCoder",
-            "Heuristic"
-          ]
-        },
         {
           "source": "atcoder",
           "source_label": "AtCoder",
@@ -106,7 +92,7 @@
       ]
     },
     "codeforces": {
-      "fetched_at": "2026-10-30T04:47:16.650455+00:00",
+      "fetched_at": "2026-10-31T04:31:58.787875+00:00",
       "contests": [
         {
           "source": "codeforces",
@@ -190,20 +176,6 @@
           "categories": [
             "Codeforces",
             "Codeforces Round"
-          ]
-        },
-        {
-          "source": "codeforces",
-          "source_label": "Codeforces",
-          "uid": "codeforces-2281@cp-competitions",
-          "name": "ICPC 2026 Online Challenge 2 powered by Huawei",
-          "start": "2026-11-05T11:00:00+00:00",
-          "duration": 1209600,
-          "url": "https://codeforces.com/contest/2281",
-          "detail": "赛制：IOI",
-          "categories": [
-            "Codeforces",
-            "IOI"
           ]
         },
         {
