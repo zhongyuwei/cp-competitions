@@ -1,24 +1,10 @@
 {
   "version": 1,
-  "generated_at": "2026-10-31T04:31:57+00:00",
+  "generated_at": "2026-11-01T04:52:50+00:00",
   "sources": {
     "atcoder": {
-      "fetched_at": "2026-10-31T04:31:58.371269+00:00",
+      "fetched_at": "2026-11-01T04:52:51.680632+00:00",
       "contests": [
-        {
-          "source": "atcoder",
-          "source_label": "AtCoder",
-          "uid": "atcoder-abc482@cp-competitions",
-          "name": "AtCoder Beginner Contest 482",
-          "start": "2026-10-31T12:00:00+00:00",
-          "duration": 6000,
-          "url": "https://atcoder.jp/contests/abc482",
-          "detail": "赛制：Algorithm\nRated 范围：- 1999",
-          "categories": [
-            "AtCoder",
-            "Algorithm"
-          ]
-        },
         {
           "source": "atcoder",
           "source_label": "AtCoder",
@@ -92,14 +78,14 @@
       ]
     },
     "codeforces": {
-      "fetched_at": "2026-10-31T04:31:58.787875+00:00",
+      "fetched_at": "2026-11-01T04:52:52.082549+00:00",
       "contests": [
         {
           "source": "codeforces",
           "source_label": "Codeforces",
           "uid": "codeforces-2282@cp-competitions",
           "name": "Kotlin Heroes: Episode 15",
-          "start": "2026-11-27T14:35:00+00:00",
+          "start": "2026-12-08T14:35:00+00:00",
           "duration": 9000,
           "url": "https://codeforces.com/contest/2282",
           "detail": "赛制：ICPC",
@@ -113,7 +99,7 @@
           "source_label": "Codeforces",
           "uid": "codeforces-2286@cp-competitions",
           "name": "Kotlin Heroes: Practice 15",
-          "start": "2026-11-20T14:30:00+00:00",
+          "start": "2026-12-01T14:30:00+00:00",
           "duration": 604800,
           "url": "https://codeforces.com/contest/2286",
           "detail": "赛制：ICPC",
@@ -191,33 +177,11 @@
             "Codeforces",
             "ICPC"
           ]
-        },
-        {
-          "source": "codeforces",
-          "source_label": "Codeforces",
-          "uid": "codeforces-2278@cp-competitions",
-          "name": "Codeforces Round 1131 (Div. 3)",
-          "start": "2026-10-31T14:35:00+00:00",
-          "duration": 8100,
-          "url": "https://codeforces.com/contest/2278",
-          "detail": "赛制：ICPC",
-          "categories": [
-            "Codeforces",
-            "ICPC"
-          ]
         }
       ]
     }
   },
   "stamps": {
-    "atcoder-abc482@cp-competitions": {
-      "signature": "2026-10-31T12:00:00+00:00|6000|AtCoder Beginner Contest 482|https://atcoder.jp/contests/abc482",
-      "stamp": "2026-10-20T12:08:55+00:00"
-    },
-    "codeforces-2278@cp-competitions": {
-      "signature": "2026-10-31T14:35:00+00:00|8100|Codeforces Round 1131 (Div. 3)|https://codeforces.com/contest/2278",
-      "stamp": "2026-10-22T03:41:45+00:00"
-    },
     "codeforces-2283@cp-competitions": {
       "signature": "2026-11-04T14:35:00+00:00|7200|Educational Codeforces Round 196 (Rated for Div. 2)|https://codeforces.com/contest/2283",
       "stamp": "2026-10-27T04:04:54+00:00"
@@ -259,8 +223,16 @@
       "stamp": "2026-10-26T03:41:23+00:00"
     },
     "codeforces-2282@cp-competitions": {
-      "signature": "2026-11-27T14:35:00+00:00|9000|Kotlin Heroes: Episode 15|https://codeforces.com/contest/2282",
-      "stamp": "2026-10-26T03:41:23+00:00"
+      "signature": "2026-12-08T14:35:00+00:00|9000|Kotlin Heroes: Episode 15|https://codeforces.com/contest/2282",
+      "stamp": "2026-11-01T04:52:50+00:00"
+    },
+    "atcoder-abc482@cp-competitions": {
+      "signature": "2026-10-31T12:00:00+00:00|6000|AtCoder Beginner Contest 482|https://atcoder.jp/contests/abc482",
+      "stamp": "2026-10-20T12:08:55+00:00"
+    },
+    "codeforces-2278@cp-competitions": {
+      "signature": "2026-10-31T14:35:00+00:00|8100|Codeforces Round 1131 (Div. 3)|https://codeforces.com/contest/2278",
+      "stamp": "2026-10-22T03:41:45+00:00"
     },
     "codeforces-2272@cp-competitions": {
       "signature": "2026-10-26T14:35:00+00:00|8100|Codeforces Round 1130 (Div. 2)|https://codeforces.com/contest/2272",
