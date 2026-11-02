@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-11-01T04:52:50+00:00",
+  "generated_at": "2026-11-02T04:53:36+00:00",
   "sources": {
     "atcoder": {
-      "fetched_at": "2026-11-01T04:52:51.680632+00:00",
+      "fetched_at": "2026-11-02T04:53:37.306850+00:00",
       "contests": [
         {
           "source": "atcoder",
@@ -25,7 +25,7 @@
           "uid": "atcoder-agc079@cp-competitions",
           "name": "AtCoder Grand Contest 079",
           "start": "2026-11-08T12:00:00+00:00",
-          "duration": 10800,
+          "duration": 12600,
           "url": "https://atcoder.jp/contests/agc079",
           "detail": "赛制：Algorithm\nRated 范围：2000 -",
           "categories": [
@@ -78,7 +78,7 @@
       ]
     },
     "codeforces": {
-      "fetched_at": "2026-11-01T04:52:52.082549+00:00",
+      "fetched_at": "2026-11-02T04:53:37.899881+00:00",
       "contests": [
         {
           "source": "codeforces",
@@ -203,8 +203,8 @@
       "stamp": "2026-10-20T12:08:55+00:00"
     },
     "atcoder-agc079@cp-competitions": {
-      "signature": "2026-11-08T12:00:00+00:00|10800|AtCoder Grand Contest 079|https://atcoder.jp/contests/agc079",
-      "stamp": "2026-10-20T12:08:55+00:00"
+      "signature": "2026-11-08T12:00:00+00:00|12600|AtCoder Grand Contest 079|https://atcoder.jp/contests/agc079",
+      "stamp": "2026-11-02T04:53:36+00:00"
     },
     "atcoder-abc484@cp-competitions": {
       "signature": "2026-11-14T12:00:00+00:00|6000|AtCoder Beginner Contest 484|https://atcoder.jp/contests/abc484",

@@ -182,14 +182,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:atcoder-agc079@cp-competitions
-DTSTAMP:20261020T120855Z
+DTSTAMP:20261102T045336Z
 DTSTART:20261108T120000Z
-DTEND:20261108T150000Z
+DTEND:20261108T153000Z
 SUMMARY:[AtCoder] AtCoder Grand Contest 079
 DESCRIPTION:AtCoder Grand Contest 079\n\n开始：2026-11-08 12:00 UTC（
- 北京时间 2026-11-08 20:00）\n时长：3 小时\n链接：https://atco
- der.jp/contests/agc079\n\n赛制：Algorithm\nRated 范围：2000 -\n\n由
-  cp-competitions 自动生成
+ 北京时间 2026-11-08 20:00）\n时长：3 小时 30 分\n链接：https
+ ://atcoder.jp/contests/agc079\n\n赛制：Algorithm\nRated 范围：2000 -
+ \n\n由 cp-competitions 自动生成
 URL:https://atcoder.jp/contests/agc079
 LOCATION:Online
 CATEGORIES:AtCoder,Algorithm
