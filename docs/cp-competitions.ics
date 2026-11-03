@@ -351,6 +351,40 @@ X-WR-ALARMUID:atcoder-arc234@cp-competitions-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:atcoder-abc486@cp-competitions
+DTSTAMP:20261103T054243Z
+DTSTART:20261128T120000Z
+DTEND:20261128T134000Z
+SUMMARY:[AtCoder] AtCoder Beginner Contest 486
+DESCRIPTION:AtCoder Beginner Contest 486\n\n开始：2026-11-28 12:00 UTC
+ （北京时间 2026-11-28 20:00）\n时长：1 小时 40 分\n链接：ht
+ tps://atcoder.jp/contests/abc486\n\n赛制：Algorithm\nRated 范围：- 1
+ 999\n\n由 cp-competitions 自动生成
+URL:https://atcoder.jp/contests/abc486
+LOCATION:Online
+CATEGORIES:AtCoder,Algorithm
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:明天有比赛：AtCoder Beginner Contest 486（AtCoder）
+TRIGGER:-P1D
+X-WR-ALARMUID:atcoder-abc486@cp-competitions-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:3 小时后开赛：AtCoder Beginner Contest 486（AtCoder）
+TRIGGER:-PT3H
+X-WR-ALARMUID:atcoder-abc486@cp-competitions-PT3H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：AtCoder Beginner Contest 486（AtCoder）
+TRIGGER:-PT15M
+X-WR-ALARMUID:atcoder-abc486@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:codeforces-2282@cp-competitions
 DTSTAMP:20261101T045250Z
 DTSTART:20261208T143500Z
