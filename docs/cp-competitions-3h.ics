@@ -9,38 +9,15 @@ X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:codeforces-2283@cp-competitions
-DTSTAMP:20261027T040454Z
-DTSTART:20261104T143500Z
-DTEND:20261104T163500Z
-SUMMARY:[Codeforces] Educational Codeforces Round 196 (Rated for Div. 2)
-DESCRIPTION:Educational Codeforces Round 196 (Rated for Div. 2)\n\n开始
- ：2026-11-04 14:35 UTC（北京时间 2026-11-04 22:35）\n时长：2 小
- 时\n链接：https://codeforces.com/contest/2283\n\n赛制：ICPC\n\n由 
- cp-competitions 自动生成
-URL:https://codeforces.com/contest/2283
-LOCATION:Online
-CATEGORIES:Codeforces,ICPC
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:3 小时后开赛：Educational Codeforces Round 196 (Rated for
-  Div. 2)（Codeforces）
-TRIGGER:-PT3H
-X-WR-ALARMUID:codeforces-2283@cp-competitions-PT3H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:codeforces-2284@cp-competitions
-DTSTAMP:20261027T040454Z
+DTSTAMP:20261105T053616Z
 DTSTART:20261106T143500Z
 DTEND:20261106T165000Z
-SUMMARY:[Codeforces] Codeforces Round (Div. 2)
-DESCRIPTION:Codeforces Round (Div. 2)\n\n开始：2026-11-06 14:35 UTC（
- 北京时间 2026-11-06 22:35）\n时长：2 小时 15 分\n链接：https
- ://codeforces.com/contest/2284\n\n赛制：Codeforces Round\n\n由 cp-comp
- etitions 自动生成
+SUMMARY:[Codeforces] Codeforces Round 1132 (Div. 2)
+DESCRIPTION:Codeforces Round 1132 (Div. 2)\n\n开始：2026-11-06 14:35 UTC
+ （北京时间 2026-11-06 22:35）\n时长：2 小时 15 分\n链接：ht
+ tps://codeforces.com/contest/2284\n\n赛制：Codeforces Round\n\n由 cp-c
+ ompetitions 自动生成
 URL:https://codeforces.com/contest/2284
 LOCATION:Online
 CATEGORIES:Codeforces,Codeforces Round
@@ -48,7 +25,8 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:3 小时后开赛：Codeforces Round (Div. 2)（Codeforces）
+DESCRIPTION:3 小时后开赛：Codeforces Round 1132 (Div. 2)（Codeforces
+ ）
 TRIGGER:-PT3H
 X-WR-ALARMUID:codeforces-2284@cp-competitions-PT3H
 END:VALARM
@@ -77,14 +55,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:codeforces-2279@cp-competitions
-DTSTAMP:20261020T120855Z
+DTSTAMP:20261105T053616Z
 DTSTART:20261107T143500Z
 DTEND:20261107T170500Z
-SUMMARY:[Codeforces] Codeforces Round (Div. 1)
-DESCRIPTION:Codeforces Round (Div. 1)\n\n开始：2026-11-07 14:35 UTC（
- 北京时间 2026-11-07 22:35）\n时长：2 小时 30 分\n链接：https
- ://codeforces.com/contest/2279\n\n赛制：Codeforces Round\n\n由 cp-comp
- etitions 自动生成
+SUMMARY:[Codeforces] Codeforces Round 1133 (Div. 1)
+DESCRIPTION:Codeforces Round 1133 (Div. 1)\n\n开始：2026-11-07 14:35 UTC
+ （北京时间 2026-11-07 22:35）\n时长：2 小时 30 分\n链接：ht
+ tps://codeforces.com/contest/2279\n\n赛制：Codeforces Round\n\n由 cp-c
+ ompetitions 自动生成
 URL:https://codeforces.com/contest/2279
 LOCATION:Online
 CATEGORIES:Codeforces,Codeforces Round
@@ -92,21 +70,22 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:3 小时后开赛：Codeforces Round (Div. 1)（Codeforces）
+DESCRIPTION:3 小时后开赛：Codeforces Round 1133 (Div. 1)（Codeforces
+ ）
 TRIGGER:-PT3H
 X-WR-ALARMUID:codeforces-2279@cp-competitions-PT3H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:codeforces-2280@cp-competitions
-DTSTAMP:20261020T120855Z
+DTSTAMP:20261105T053616Z
 DTSTART:20261107T143500Z
 DTEND:20261107T170500Z
-SUMMARY:[Codeforces] Codeforces Round (Div. 2)
-DESCRIPTION:Codeforces Round (Div. 2)\n\n开始：2026-11-07 14:35 UTC（
- 北京时间 2026-11-07 22:35）\n时长：2 小时 30 分\n链接：https
- ://codeforces.com/contest/2280\n\n赛制：Codeforces Round\n\n由 cp-comp
- etitions 自动生成
+SUMMARY:[Codeforces] Codeforces Round 1133 (Div. 2)
+DESCRIPTION:Codeforces Round 1133 (Div. 2)\n\n开始：2026-11-07 14:35 UTC
+ （北京时间 2026-11-07 22:35）\n时长：2 小时 30 分\n链接：ht
+ tps://codeforces.com/contest/2280\n\n赛制：Codeforces Round\n\n由 cp-c
+ ompetitions 自动生成
 URL:https://codeforces.com/contest/2280
 LOCATION:Online
 CATEGORIES:Codeforces,Codeforces Round
@@ -114,7 +93,8 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:3 小时后开赛：Codeforces Round (Div. 2)（Codeforces）
+DESCRIPTION:3 小时后开赛：Codeforces Round 1133 (Div. 2)（Codeforces
+ ）
 TRIGGER:-PT3H
 X-WR-ALARMUID:codeforces-2280@cp-competitions-PT3H
 END:VALARM
@@ -315,6 +295,50 @@ ACTION:DISPLAY
 DESCRIPTION:3 小时后开赛：Kotlin Heroes: Episode 15（Codeforces）
 TRIGGER:-PT3H
 X-WR-ALARMUID:codeforces-2282@cp-competitions-PT3H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:atcoder-agc080@cp-competitions
+DTSTAMP:20261105T053616Z
+DTSTART:20261213T120000Z
+DTEND:20261213T150000Z
+SUMMARY:[AtCoder] AtCoder Grand Contest 080
+DESCRIPTION:AtCoder Grand Contest 080\n\n开始：2026-12-13 12:00 UTC（
+ 北京时间 2026-12-13 20:00）\n时长：3 小时\n链接：https://atco
+ der.jp/contests/agc080\n\n赛制：Algorithm\nRated 范围：2000 -\n\n由
+  cp-competitions 自动生成
+URL:https://atcoder.jp/contests/agc080
+LOCATION:Online
+CATEGORIES:AtCoder,Algorithm
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:3 小时后开赛：AtCoder Grand Contest 080（AtCoder）
+TRIGGER:-PT3H
+X-WR-ALARMUID:atcoder-agc080@cp-competitions-PT3H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:atcoder-agc081@cp-competitions
+DTSTAMP:20261105T053616Z
+DTSTART:20261227T120000Z
+DTEND:20261227T150000Z
+SUMMARY:[AtCoder] AtCoder Grand Contest 081
+DESCRIPTION:AtCoder Grand Contest 081\n\n开始：2026-12-27 12:00 UTC（
+ 北京时间 2026-12-27 20:00）\n时长：3 小时\n链接：https://atco
+ der.jp/contests/agc081\n\n赛制：Algorithm\nRated 范围：2000 -\n\n由
+  cp-competitions 自动生成
+URL:https://atcoder.jp/contests/agc081
+LOCATION:Online
+CATEGORIES:AtCoder,Algorithm
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:3 小时后开赛：AtCoder Grand Contest 081（AtCoder）
+TRIGGER:-PT3H
+X-WR-ALARMUID:atcoder-agc081@cp-competitions-PT3H
 END:VALARM
 END:VEVENT
 END:VCALENDAR
