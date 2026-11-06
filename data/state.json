@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-11-05T05:36:16+00:00",
+  "generated_at": "2026-11-06T05:33:25+00:00",
   "sources": {
     "atcoder": {
-      "fetched_at": "2026-11-05T05:36:16.677579+00:00",
+      "fetched_at": "2026-11-06T05:33:25.672262+00:00",
       "contests": [
         {
           "source": "atcoder",
@@ -120,7 +120,7 @@
       ]
     },
     "codeforces": {
-      "fetched_at": "2026-11-05T05:36:16.971871+00:00",
+      "fetched_at": "2026-11-06T05:33:26.046507+00:00",
       "contests": [
         {
           "source": "codeforces",
