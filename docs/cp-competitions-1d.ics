@@ -9,29 +9,6 @@ X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:codeforces-2284@cp-competitions
-DTSTAMP:20261105T053616Z
-DTSTART:20261106T143500Z
-DTEND:20261106T165000Z
-SUMMARY:[Codeforces] Codeforces Round 1132 (Div. 2)
-DESCRIPTION:Codeforces Round 1132 (Div. 2)\n\n开始：2026-11-06 14:35 UTC
- （北京时间 2026-11-06 22:35）\n时长：2 小时 15 分\n链接：ht
- tps://codeforces.com/contest/2284\n\n赛制：Codeforces Round\n\n由 cp-c
- ompetitions 自动生成
-URL:https://codeforces.com/contest/2284
-LOCATION:Online
-CATEGORIES:Codeforces,Codeforces Round
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:明天有比赛：Codeforces Round 1132 (Div. 2)（Codeforces
- ）
-TRIGGER:-P1D
-X-WR-ALARMUID:codeforces-2284@cp-competitions-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:atcoder-abc483@cp-competitions
 DTSTAMP:20261020T120855Z
 DTSTART:20261107T120000Z

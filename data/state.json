@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-11-06T05:33:25+00:00",
+  "generated_at": "2026-11-07T05:00:25+00:00",
   "sources": {
     "atcoder": {
-      "fetched_at": "2026-11-06T05:33:25.672262+00:00",
+      "fetched_at": "2026-11-07T05:00:26.331758+00:00",
       "contests": [
         {
           "source": "atcoder",
@@ -120,7 +120,7 @@
       ]
     },
     "codeforces": {
-      "fetched_at": "2026-11-06T05:33:26.046507+00:00",
+      "fetched_at": "2026-11-07T05:00:26.758630+00:00",
       "contests": [
         {
           "source": "codeforces",
@@ -219,29 +219,11 @@
             "Codeforces",
             "Codeforces Round"
           ]
-        },
-        {
-          "source": "codeforces",
-          "source_label": "Codeforces",
-          "uid": "codeforces-2284@cp-competitions",
-          "name": "Codeforces Round 1132 (Div. 2)",
-          "start": "2026-11-06T14:35:00+00:00",
-          "duration": 8100,
-          "url": "https://codeforces.com/contest/2284",
-          "detail": "赛制：Codeforces Round",
-          "categories": [
-            "Codeforces",
-            "Codeforces Round"
-          ]
         }
       ]
     }
   },
   "stamps": {
-    "codeforces-2284@cp-competitions": {
-      "signature": "2026-11-06T14:35:00+00:00|8100|Codeforces Round 1132 (Div. 2)|https://codeforces.com/contest/2284",
-      "stamp": "2026-11-05T05:36:16+00:00"
-    },
     "atcoder-abc483@cp-competitions": {
       "signature": "2026-11-07T12:00:00+00:00|6000|AtCoder Beginner Contest 483|https://atcoder.jp/contests/abc483",
       "stamp": "2026-10-20T12:08:55+00:00"
@@ -296,6 +278,10 @@
     },
     "atcoder-agc081@cp-competitions": {
       "signature": "2026-12-27T12:00:00+00:00|10800|AtCoder Grand Contest 081|https://atcoder.jp/contests/agc081",
+      "stamp": "2026-11-05T05:36:16+00:00"
+    },
+    "codeforces-2284@cp-competitions": {
+      "signature": "2026-11-06T14:35:00+00:00|8100|Codeforces Round 1132 (Div. 2)|https://codeforces.com/contest/2284",
       "stamp": "2026-11-05T05:36:16+00:00"
     },
     "codeforces-2283@cp-competitions": {
