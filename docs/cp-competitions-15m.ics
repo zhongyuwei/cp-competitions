@@ -9,74 +9,6 @@ X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:atcoder-abc483@cp-competitions
-DTSTAMP:20261020T120855Z
-DTSTART:20261107T120000Z
-DTEND:20261107T134000Z
-SUMMARY:[AtCoder] AtCoder Beginner Contest 483
-DESCRIPTION:AtCoder Beginner Contest 483\n\n开始：2026-11-07 12:00 UTC
- （北京时间 2026-11-07 20:00）\n时长：1 小时 40 分\n链接：ht
- tps://atcoder.jp/contests/abc483\n\n赛制：Algorithm\nRated 范围：- 1
- 999\n\n由 cp-competitions 自动生成
-URL:https://atcoder.jp/contests/abc483
-LOCATION:Online
-CATEGORIES:AtCoder,Algorithm
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 分钟后开赛：AtCoder Beginner Contest 483（AtCoder）
-TRIGGER:-PT15M
-X-WR-ALARMUID:atcoder-abc483@cp-competitions-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:codeforces-2279@cp-competitions
-DTSTAMP:20261105T053616Z
-DTSTART:20261107T143500Z
-DTEND:20261107T170500Z
-SUMMARY:[Codeforces] Codeforces Round 1133 (Div. 1)
-DESCRIPTION:Codeforces Round 1133 (Div. 1)\n\n开始：2026-11-07 14:35 UTC
- （北京时间 2026-11-07 22:35）\n时长：2 小时 30 分\n链接：ht
- tps://codeforces.com/contest/2279\n\n赛制：Codeforces Round\n\n由 cp-c
- ompetitions 自动生成
-URL:https://codeforces.com/contest/2279
-LOCATION:Online
-CATEGORIES:Codeforces,Codeforces Round
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 分钟后开赛：Codeforces Round 1133 (Div. 1)（Codeforce
- s）
-TRIGGER:-PT15M
-X-WR-ALARMUID:codeforces-2279@cp-competitions-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:codeforces-2280@cp-competitions
-DTSTAMP:20261105T053616Z
-DTSTART:20261107T143500Z
-DTEND:20261107T170500Z
-SUMMARY:[Codeforces] Codeforces Round 1133 (Div. 2)
-DESCRIPTION:Codeforces Round 1133 (Div. 2)\n\n开始：2026-11-07 14:35 UTC
- （北京时间 2026-11-07 22:35）\n时长：2 小时 30 分\n链接：ht
- tps://codeforces.com/contest/2280\n\n赛制：Codeforces Round\n\n由 cp-c
- ompetitions 自动生成
-URL:https://codeforces.com/contest/2280
-LOCATION:Online
-CATEGORIES:Codeforces,Codeforces Round
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 分钟后开赛：Codeforces Round 1133 (Div. 2)（Codeforce
- s）
-TRIGGER:-PT15M
-X-WR-ALARMUID:codeforces-2280@cp-competitions-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:atcoder-agc079@cp-competitions
 DTSTAMP:20261102T045336Z
 DTSTART:20261108T120000Z
@@ -96,6 +28,29 @@ ACTION:DISPLAY
 DESCRIPTION:15 分钟后开赛：AtCoder Grand Contest 079（AtCoder）
 TRIGGER:-PT15M
 X-WR-ALARMUID:atcoder-agc079@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:codeforces-2290@cp-competitions
+DTSTAMP:20261108T045554Z
+DTSTART:20261112T143500Z
+DTEND:20261112T165000Z
+SUMMARY:[Codeforces] Codeforces Round 1134 (Div. 4)
+DESCRIPTION:Codeforces Round 1134 (Div. 4)\n\n开始：2026-11-12 14:35 UTC
+ （北京时间 2026-11-12 22:35）\n时长：2 小时 15 分\n链接：ht
+ tps://codeforces.com/contest/2290\n\n赛制：ICPC\n\n由 cp-competitions 
+ 自动生成
+URL:https://codeforces.com/contest/2290
+LOCATION:Online
+CATEGORIES:Codeforces,ICPC
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：Codeforces Round 1134 (Div. 4)（Codeforce
+ s）
+TRIGGER:-PT15M
+X-WR-ALARMUID:codeforces-2290@cp-competitions-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
