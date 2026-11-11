@@ -142,25 +142,25 @@ X-WR-ALARMUID:codeforces-2288@cp-competitions-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:atcoder-arc234@cp-competitions
-DTSTAMP:20261026T034123Z
+UID:atcoder-agc080@cp-competitions
+DTSTAMP:20261111T050554Z
 DTSTART:20261122T120000Z
-DTEND:20261122T143000Z
-SUMMARY:[AtCoder] AtCoder Regular Contest++ 234
-DESCRIPTION:AtCoder Regular Contest++ 234\n\n开始：2026-11-22 12:00 UTC
- （北京时间 2026-11-22 20:00）\n时长：2 小时 30 分\n链接：ht
- tps://atcoder.jp/contests/arc234\n\n赛制：Algorithm\nRated 范围：160
- 0 - 2999\n\n由 cp-competitions 自动生成
-URL:https://atcoder.jp/contests/arc234
+DTEND:20261122T150000Z
+SUMMARY:[AtCoder] AtCoder Grand Contest 080
+DESCRIPTION:AtCoder Grand Contest 080\n\n开始：2026-11-22 12:00 UTC（
+ 北京时间 2026-11-22 20:00）\n时长：3 小时\n链接：https://atco
+ der.jp/contests/agc080\n\n赛制：Algorithm\nRated 范围：2000 -\n\n由
+  cp-competitions 自动生成
+URL:https://atcoder.jp/contests/agc080
 LOCATION:Online
 CATEGORIES:AtCoder,Algorithm
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:15 分钟后开赛：AtCoder Regular Contest++ 234（AtCoder）
+DESCRIPTION:15 分钟后开赛：AtCoder Grand Contest 080（AtCoder）
 TRIGGER:-PT15M
-X-WR-ALARMUID:atcoder-arc234@cp-competitions-PT15M
+X-WR-ALARMUID:atcoder-agc080@cp-competitions-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -230,35 +230,13 @@ X-WR-ALARMUID:codeforces-2282@cp-competitions-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:atcoder-agc080@cp-competitions
-DTSTAMP:20261105T053616Z
+UID:atcoder-agc081@cp-competitions
+DTSTAMP:20261111T050554Z
 DTSTART:20261213T120000Z
 DTEND:20261213T150000Z
-SUMMARY:[AtCoder] AtCoder Grand Contest 080
-DESCRIPTION:AtCoder Grand Contest 080\n\n开始：2026-12-13 12:00 UTC（
- 北京时间 2026-12-13 20:00）\n时长：3 小时\n链接：https://atco
- der.jp/contests/agc080\n\n赛制：Algorithm\nRated 范围：2000 -\n\n由
-  cp-competitions 自动生成
-URL:https://atcoder.jp/contests/agc080
-LOCATION:Online
-CATEGORIES:AtCoder,Algorithm
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 分钟后开赛：AtCoder Grand Contest 080（AtCoder）
-TRIGGER:-PT15M
-X-WR-ALARMUID:atcoder-agc080@cp-competitions-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:atcoder-agc081@cp-competitions
-DTSTAMP:20261105T053616Z
-DTSTART:20261227T120000Z
-DTEND:20261227T150000Z
 SUMMARY:[AtCoder] AtCoder Grand Contest 081
-DESCRIPTION:AtCoder Grand Contest 081\n\n开始：2026-12-27 12:00 UTC（
- 北京时间 2026-12-27 20:00）\n时长：3 小时\n链接：https://atco
+DESCRIPTION:AtCoder Grand Contest 081\n\n开始：2026-12-13 12:00 UTC（
+ 北京时间 2026-12-13 20:00）\n时长：3 小时\n链接：https://atco
  der.jp/contests/agc081\n\n赛制：Algorithm\nRated 范围：2000 -\n\n由
   cp-competitions 自动生成
 URL:https://atcoder.jp/contests/agc081
@@ -271,6 +249,28 @@ ACTION:DISPLAY
 DESCRIPTION:15 分钟后开赛：AtCoder Grand Contest 081（AtCoder）
 TRIGGER:-PT15M
 X-WR-ALARMUID:atcoder-agc081@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:atcoder-agc082@cp-competitions
+DTSTAMP:20261111T050554Z
+DTSTART:20261227T120000Z
+DTEND:20261227T150000Z
+SUMMARY:[AtCoder] AtCoder Grand Contest 082
+DESCRIPTION:AtCoder Grand Contest 082\n\n开始：2026-12-27 12:00 UTC（
+ 北京时间 2026-12-27 20:00）\n时长：3 小时\n链接：https://atco
+ der.jp/contests/agc082\n\n赛制：Algorithm\nRated 范围：2000 -\n\n由
+  cp-competitions 自动生成
+URL:https://atcoder.jp/contests/agc082
+LOCATION:Online
+CATEGORIES:AtCoder,Algorithm
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：AtCoder Grand Contest 082（AtCoder）
+TRIGGER:-PT15M
+X-WR-ALARMUID:atcoder-agc082@cp-competitions-PT15M
 END:VALARM
 END:VEVENT
 END:VCALENDAR
