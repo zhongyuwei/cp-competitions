@@ -9,29 +9,6 @@ X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:codeforces-2290@cp-competitions
-DTSTAMP:20261108T045554Z
-DTSTART:20261112T143500Z
-DTEND:20261112T165000Z
-SUMMARY:[Codeforces] Codeforces Round 1134 (Div. 4)
-DESCRIPTION:Codeforces Round 1134 (Div. 4)\n\n开始：2026-11-12 14:35 UTC
- （北京时间 2026-11-12 22:35）\n时长：2 小时 15 分\n链接：ht
- tps://codeforces.com/contest/2290\n\n赛制：ICPC\n\n由 cp-competitions 
- 自动生成
-URL:https://codeforces.com/contest/2290
-LOCATION:Online
-CATEGORIES:Codeforces,ICPC
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 分钟后开赛：Codeforces Round 1134 (Div. 4)（Codeforce
- s）
-TRIGGER:-PT15M
-X-WR-ALARMUID:codeforces-2290@cp-competitions-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:atcoder-abc484@cp-competitions
 DTSTAMP:20261020T120855Z
 DTSTART:20261114T120000Z
@@ -55,14 +32,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:codeforces-2285@cp-competitions
-DTSTAMP:20261027T040454Z
+DTSTAMP:20261113T053152Z
 DTSTART:20261115T143500Z
 DTEND:20261115T163500Z
-SUMMARY:[Codeforces] Codeforces Round (Div. 2)
-DESCRIPTION:Codeforces Round (Div. 2)\n\n开始：2026-11-15 14:35 UTC（
- 北京时间 2026-11-15 22:35）\n时长：2 小时\n链接：https://code
- forces.com/contest/2285\n\n赛制：Codeforces Round\n\n由 cp-competition
- s 自动生成
+SUMMARY:[Codeforces] Codeforces Round 1135 (Div. 2)
+DESCRIPTION:Codeforces Round 1135 (Div. 2)\n\n开始：2026-11-15 14:35 UTC
+ （北京时间 2026-11-15 22:35）\n时长：2 小时\n链接：https://c
+ odeforces.com/contest/2285\n\n赛制：Codeforces Round\n\n由 cp-competit
+ ions 自动生成
 URL:https://codeforces.com/contest/2285
 LOCATION:Online
 CATEGORIES:Codeforces,Codeforces Round
@@ -70,7 +47,8 @@ STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:15 分钟后开赛：Codeforces Round (Div. 2)（Codeforces）
+DESCRIPTION:15 分钟后开赛：Codeforces Round 1135 (Div. 2)（Codeforce
+ s）
 TRIGGER:-PT15M
 X-WR-ALARMUID:codeforces-2285@cp-competitions-PT15M
 END:VALARM
@@ -186,6 +164,28 @@ X-WR-ALARMUID:atcoder-abc486@cp-competitions-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:atcoder-ahc075@cp-competitions
+DTSTAMP:20261113T053152Z
+DTSTART:20261129T100000Z
+DTEND:20261129T140000Z
+SUMMARY:[AtCoder] AtCoder Heuristic Contest 075
+DESCRIPTION:AtCoder Heuristic Contest 075\n\n开始：2026-11-29 10:00 UTC
+ （北京时间 2026-11-29 18:00）\n时长：4 小时\n链接：https://a
+ tcoder.jp/contests/ahc075\n\n赛制：Heuristic\nRated 范围：All\n\n由
+  cp-competitions 自动生成
+URL:https://atcoder.jp/contests/ahc075
+LOCATION:Online
+CATEGORIES:AtCoder,Heuristic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：AtCoder Heuristic Contest 075（AtCoder）
+TRIGGER:-PT15M
+X-WR-ALARMUID:atcoder-ahc075@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:atcoder-abc487@cp-competitions
 DTSTAMP:20261110T062104Z
 DTSTART:20261205T120000Z
@@ -237,7 +237,7 @@ DTEND:20261213T150000Z
 SUMMARY:[AtCoder] AtCoder Grand Contest 080
 DESCRIPTION:AtCoder Grand Contest 080\n\n开始：2026-12-13 12:00 UTC（
  北京时间 2026-12-13 20:00）\n时长：3 小时\n链接：https://atco
- der.jp/contests/agc080\n\n赛制：Algorithm\nRated 范围：2000 -\n\n由
+ der.jp/contests/agc080\n\n赛制：Algorithm\nRated 范围：2400 -\n\n由
   cp-competitions 自动生成
 URL:https://atcoder.jp/contests/agc080
 LOCATION:Online
@@ -259,7 +259,7 @@ DTEND:20261227T150000Z
 SUMMARY:[AtCoder] AtCoder Grand Contest 081
 DESCRIPTION:AtCoder Grand Contest 081\n\n开始：2026-12-27 12:00 UTC（
  北京时间 2026-12-27 20:00）\n时长：3 小时\n链接：https://atco
- der.jp/contests/agc081\n\n赛制：Algorithm\nRated 范围：2000 -\n\n由
+ der.jp/contests/agc081\n\n赛制：Algorithm\nRated 范围：2400 -\n\n由
   cp-competitions 自动生成
 URL:https://atcoder.jp/contests/agc081
 LOCATION:Online
@@ -271,6 +271,50 @@ ACTION:DISPLAY
 DESCRIPTION:15 分钟后开赛：AtCoder Grand Contest 081（AtCoder）
 TRIGGER:-PT15M
 X-WR-ALARMUID:atcoder-agc081@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:atcoder-agc082@cp-competitions
+DTSTAMP:20261113T053152Z
+DTSTART:20270117T120000Z
+DTEND:20270117T150000Z
+SUMMARY:[AtCoder] AtCoder Grand Contest 082
+DESCRIPTION:AtCoder Grand Contest 082\n\n开始：2027-01-17 12:00 UTC（
+ 北京时间 2027-01-17 20:00）\n时长：3 小时\n链接：https://atco
+ der.jp/contests/agc082\n\n赛制：Algorithm\nRated 范围：2400 -\n\n由
+  cp-competitions 自动生成
+URL:https://atcoder.jp/contests/agc082
+LOCATION:Online
+CATEGORIES:AtCoder,Algorithm
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：AtCoder Grand Contest 082（AtCoder）
+TRIGGER:-PT15M
+X-WR-ALARMUID:atcoder-agc082@cp-competitions-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:atcoder-agc083@cp-competitions
+DTSTAMP:20261113T053152Z
+DTSTART:20270124T120000Z
+DTEND:20270124T150000Z
+SUMMARY:[AtCoder] AtCoder Grand Contest 083
+DESCRIPTION:AtCoder Grand Contest 083\n\n开始：2027-01-24 12:00 UTC（
+ 北京时间 2027-01-24 20:00）\n时长：3 小时\n链接：https://atco
+ der.jp/contests/agc083\n\n赛制：Algorithm\nRated 范围：2400 -\n\n由
+  cp-competitions 自动生成
+URL:https://atcoder.jp/contests/agc083
+LOCATION:Online
+CATEGORIES:AtCoder,Algorithm
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:15 分钟后开赛：AtCoder Grand Contest 083（AtCoder）
+TRIGGER:-PT15M
+X-WR-ALARMUID:atcoder-agc083@cp-competitions-PT15M
 END:VALARM
 END:VEVENT
 END:VCALENDAR
