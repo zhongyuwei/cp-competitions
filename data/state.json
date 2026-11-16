@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-11-15T05:19:12+00:00",
+  "generated_at": "2026-11-16T05:16:49+00:00",
   "sources": {
     "atcoder": {
-      "fetched_at": "2026-11-15T05:19:12.860083+00:00",
+      "fetched_at": "2026-11-16T05:16:50.004243+00:00",
       "contests": [
         {
           "source": "atcoder",
@@ -134,7 +134,7 @@
       ]
     },
     "codeforces": {
-      "fetched_at": "2026-11-15T05:19:14.184986+00:00",
+      "fetched_at": "2026-11-16T05:16:50.245832+00:00",
       "contests": [
         {
           "source": "codeforces",
@@ -205,29 +205,11 @@
             "Codeforces",
             "Codeforces Round"
           ]
-        },
-        {
-          "source": "codeforces",
-          "source_label": "Codeforces",
-          "uid": "codeforces-2285@cp-competitions",
-          "name": "Codeforces Round 1135 (Div. 2)",
-          "start": "2026-11-15T14:35:00+00:00",
-          "duration": 7200,
-          "url": "https://codeforces.com/contest/2285",
-          "detail": "赛制：Codeforces Round",
-          "categories": [
-            "Codeforces",
-            "Codeforces Round"
-          ]
         }
       ]
     }
   },
   "stamps": {
-    "codeforces-2285@cp-competitions": {
-      "signature": "2026-11-15T14:35:00+00:00|7200|Codeforces Round 1135 (Div. 2)|https://codeforces.com/contest/2285",
-      "stamp": "2026-11-13T05:31:52+00:00"
-    },
     "atcoder-abc485@cp-competitions": {
       "signature": "2026-11-21T12:00:00+00:00|6000|AtCoder Beginner Contest 485|https://atcoder.jp/contests/abc485",
       "stamp": "2026-10-27T04:04:54+00:00"
@@ -278,6 +260,10 @@
     },
     "atcoder-agc083@cp-competitions": {
       "signature": "2027-01-24T12:00:00+00:00|10800|AtCoder Grand Contest 083|https://atcoder.jp/contests/agc083",
+      "stamp": "2026-11-13T05:31:52+00:00"
+    },
+    "codeforces-2285@cp-competitions": {
+      "signature": "2026-11-15T14:35:00+00:00|7200|Codeforces Round 1135 (Div. 2)|https://codeforces.com/contest/2285",
       "stamp": "2026-11-13T05:31:52+00:00"
     },
     "atcoder-abc484@cp-competitions": {

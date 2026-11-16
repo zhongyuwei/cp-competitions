@@ -9,29 +9,6 @@ X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:codeforces-2285@cp-competitions
-DTSTAMP:20261113T053152Z
-DTSTART:20261115T143500Z
-DTEND:20261115T163500Z
-SUMMARY:[Codeforces] Codeforces Round 1135 (Div. 2)
-DESCRIPTION:Codeforces Round 1135 (Div. 2)\n\n开始：2026-11-15 14:35 UTC
- （北京时间 2026-11-15 22:35）\n时长：2 小时\n链接：https://c
- odeforces.com/contest/2285\n\n赛制：Codeforces Round\n\n由 cp-competit
- ions 自动生成
-URL:https://codeforces.com/contest/2285
-LOCATION:Online
-CATEGORIES:Codeforces,Codeforces Round
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:3 小时后开赛：Codeforces Round 1135 (Div. 2)（Codeforces
- ）
-TRIGGER:-PT3H
-X-WR-ALARMUID:codeforces-2285@cp-competitions-PT3H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:atcoder-abc485@cp-competitions
 DTSTAMP:20261027T040454Z
 DTSTART:20261121T120000Z
