@@ -1,24 +1,10 @@
 {
   "version": 1,
-  "generated_at": "2026-11-22T05:34:51+00:00",
+  "generated_at": "2026-11-23T06:15:44+00:00",
   "sources": {
     "atcoder": {
-      "fetched_at": "2026-11-22T05:34:51.728342+00:00",
+      "fetched_at": "2026-11-23T06:15:45.376149+00:00",
       "contests": [
-        {
-          "source": "atcoder",
-          "source_label": "AtCoder",
-          "uid": "atcoder-arc234@cp-competitions",
-          "name": "AtCoder Regular Contest++ 234",
-          "start": "2026-11-22T12:00:00+00:00",
-          "duration": 9000,
-          "url": "https://atcoder.jp/contests/arc234",
-          "detail": "赛制：Algorithm\nRated 范围：1600 - 2999",
-          "categories": [
-            "AtCoder",
-            "Algorithm"
-          ]
-        },
         {
           "source": "atcoder",
           "source_label": "AtCoder",
@@ -148,7 +134,7 @@
       ]
     },
     "codeforces": {
-      "fetched_at": "2026-11-22T05:34:51.987763+00:00",
+      "fetched_at": "2026-11-23T06:15:45.618179+00:00",
       "contests": [
         {
           "source": "codeforces",
@@ -191,33 +177,11 @@
             "Codeforces",
             "ICPC"
           ]
-        },
-        {
-          "source": "codeforces",
-          "source_label": "Codeforces",
-          "uid": "codeforces-2289@cp-competitions",
-          "name": "Codeforces Round 1137 (Div. 2)",
-          "start": "2026-11-22T09:05:00+00:00",
-          "duration": 7200,
-          "url": "https://codeforces.com/contest/2289",
-          "detail": "赛制：Codeforces Round",
-          "categories": [
-            "Codeforces",
-            "Codeforces Round"
-          ]
         }
       ]
     }
   },
   "stamps": {
-    "codeforces-2289@cp-competitions": {
-      "signature": "2026-11-22T09:05:00+00:00|7200|Codeforces Round 1137 (Div. 2)|https://codeforces.com/contest/2289",
-      "stamp": "2026-11-19T06:23:01+00:00"
-    },
-    "atcoder-arc234@cp-competitions": {
-      "signature": "2026-11-22T12:00:00+00:00|9000|AtCoder Regular Contest++ 234|https://atcoder.jp/contests/arc234",
-      "stamp": "2026-10-26T03:41:23+00:00"
-    },
     "atcoder-abc486@cp-competitions": {
       "signature": "2026-11-28T12:00:00+00:00|6000|AtCoder Beginner Contest 486|https://atcoder.jp/contests/abc486",
       "stamp": "2026-11-03T05:42:43+00:00"
@@ -257,6 +221,14 @@
     "atcoder-agc083@cp-competitions": {
       "signature": "2027-01-24T12:00:00+00:00|10800|AtCoder Grand Contest 083|https://atcoder.jp/contests/agc083",
       "stamp": "2026-11-13T05:31:52+00:00"
+    },
+    "codeforces-2289@cp-competitions": {
+      "signature": "2026-11-22T09:05:00+00:00|7200|Codeforces Round 1137 (Div. 2)|https://codeforces.com/contest/2289",
+      "stamp": "2026-11-19T06:23:01+00:00"
+    },
+    "atcoder-arc234@cp-competitions": {
+      "signature": "2026-11-22T12:00:00+00:00|9000|AtCoder Regular Contest++ 234|https://atcoder.jp/contests/arc234",
+      "stamp": "2026-10-26T03:41:23+00:00"
     },
     "atcoder-abc485@cp-competitions": {
       "signature": "2026-11-21T12:00:00+00:00|6000|AtCoder Beginner Contest 485|https://atcoder.jp/contests/abc485",
