@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-11-23T06:15:44+00:00",
+  "generated_at": "2026-11-24T08:51:45+00:00",
   "sources": {
     "atcoder": {
-      "fetched_at": "2026-11-23T06:15:45.376149+00:00",
+      "fetched_at": "2026-11-24T08:51:46.340869+00:00",
       "contests": [
         {
           "source": "atcoder",
@@ -134,8 +134,22 @@
       ]
     },
     "codeforces": {
-      "fetched_at": "2026-11-23T06:15:45.618179+00:00",
+      "fetched_at": "2026-11-24T08:51:46.728153+00:00",
       "contests": [
+        {
+          "source": "codeforces",
+          "source_label": "Codeforces",
+          "uid": "codeforces-2293@cp-competitions",
+          "name": "Educational Codeforces Round 197 (Rated for Div. 2)",
+          "start": "2026-12-14T14:35:00+00:00",
+          "duration": 7200,
+          "url": "https://codeforces.com/contest/2293",
+          "detail": "赛制：ICPC",
+          "categories": [
+            "Codeforces",
+            "ICPC"
+          ]
+        },
         {
           "source": "codeforces",
           "source_label": "Codeforces",
@@ -177,11 +191,29 @@
             "Codeforces",
             "ICPC"
           ]
+        },
+        {
+          "source": "codeforces",
+          "source_label": "Codeforces",
+          "uid": "codeforces-2292@cp-competitions",
+          "name": "Codeforces Round 1138 (Div. 3)",
+          "start": "2026-11-27T14:35:00+00:00",
+          "duration": 8100,
+          "url": "https://codeforces.com/contest/2292",
+          "detail": "赛制：ICPC",
+          "categories": [
+            "Codeforces",
+            "ICPC"
+          ]
         }
       ]
     }
   },
   "stamps": {
+    "codeforces-2292@cp-competitions": {
+      "signature": "2026-11-27T14:35:00+00:00|8100|Codeforces Round 1138 (Div. 3)|https://codeforces.com/contest/2292",
+      "stamp": "2026-11-24T08:51:45+00:00"
+    },
     "atcoder-abc486@cp-competitions": {
       "signature": "2026-11-28T12:00:00+00:00|6000|AtCoder Beginner Contest 486|https://atcoder.jp/contests/abc486",
       "stamp": "2026-11-03T05:42:43+00:00"
@@ -205,6 +237,10 @@
     "atcoder-agc080@cp-competitions": {
       "signature": "2026-12-13T12:00:00+00:00|10800|AtCoder Grand Contest 080|https://atcoder.jp/contests/agc080",
       "stamp": "2026-11-12T06:10:38+00:00"
+    },
+    "codeforces-2293@cp-competitions": {
+      "signature": "2026-12-14T14:35:00+00:00|7200|Educational Codeforces Round 197 (Rated for Div. 2)|https://codeforces.com/contest/2293",
+      "stamp": "2026-11-24T08:51:45+00:00"
     },
     "atcoder-abc489@cp-competitions": {
       "signature": "2026-12-20T12:00:00+00:00|6000|UNIQUE VISION Programming Contest 2026 (ChristmasAtCoder Beginner Contest 489)|https://atcoder.jp/contests/abc489",
