@@ -8,43 +8,6 @@ X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:codeforces-2292@cp-competitions
-DTSTAMP:20261124T085145Z
-DTSTART:20261127T143500Z
-DTEND:20261127T165000Z
-SUMMARY:[Codeforces] Codeforces Round 1138 (Div. 3)
-DESCRIPTION:Codeforces Round 1138 (Div. 3)\n\n开始：2026-11-27 14:35 UTC
- （北京时间 2026-11-27 22:35）\n时长：2 小时 15 分\n链接：ht
- tps://codeforces.com/contest/2292\n\n赛制：ICPC\n\n由 cp-competitions 
- 自动生成
-URL:https://codeforces.com/contest/2292
-LOCATION:Online
-CATEGORIES:Codeforces,ICPC
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:明天有比赛：Codeforces Round 1138 (Div. 3)（Codeforces
- ）
-TRIGGER:-P1D
-X-WR-ALARMUID:codeforces-2292@cp-competitions-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:3 小时后开赛：Codeforces Round 1138 (Div. 3)（Codeforces
- ）
-TRIGGER:-PT3H
-X-WR-ALARMUID:codeforces-2292@cp-competitions-PT3H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:15 分钟后开赛：Codeforces Round 1138 (Div. 3)（Codeforce
- s）
-TRIGGER:-PT15M
-X-WR-ALARMUID:codeforces-2292@cp-competitions-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:atcoder-abc486@cp-competitions
 DTSTAMP:20261103T054243Z
 DTSTART:20261128T120000Z

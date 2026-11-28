@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-11-27T07:12:09+00:00",
+  "generated_at": "2026-11-28T06:45:05+00:00",
   "sources": {
     "atcoder": {
-      "fetched_at": "2026-11-27T07:12:10.393590+00:00",
+      "fetched_at": "2026-11-28T06:45:06.391390+00:00",
       "contests": [
         {
           "source": "atcoder",
@@ -134,7 +134,7 @@
       ]
     },
     "codeforces": {
-      "fetched_at": "2026-11-27T07:12:10.698700+00:00",
+      "fetched_at": "2026-11-28T06:45:08.090150+00:00",
       "contests": [
         {
           "source": "codeforces",
@@ -191,29 +191,11 @@
             "Codeforces",
             "ICPC"
           ]
-        },
-        {
-          "source": "codeforces",
-          "source_label": "Codeforces",
-          "uid": "codeforces-2292@cp-competitions",
-          "name": "Codeforces Round 1138 (Div. 3)",
-          "start": "2026-11-27T14:35:00+00:00",
-          "duration": 8100,
-          "url": "https://codeforces.com/contest/2292",
-          "detail": "赛制：ICPC",
-          "categories": [
-            "Codeforces",
-            "ICPC"
-          ]
         }
       ]
     }
   },
   "stamps": {
-    "codeforces-2292@cp-competitions": {
-      "signature": "2026-11-27T14:35:00+00:00|8100|Codeforces Round 1138 (Div. 3)|https://codeforces.com/contest/2292",
-      "stamp": "2026-11-24T08:51:45+00:00"
-    },
     "atcoder-abc486@cp-competitions": {
       "signature": "2026-11-28T12:00:00+00:00|6000|AtCoder Beginner Contest 486|https://atcoder.jp/contests/abc486",
       "stamp": "2026-11-03T05:42:43+00:00"
@@ -257,6 +239,10 @@
     "atcoder-agc083@cp-competitions": {
       "signature": "2027-01-24T12:00:00+00:00|10800|AtCoder Grand Contest 083|https://atcoder.jp/contests/agc083",
       "stamp": "2026-11-13T05:31:52+00:00"
+    },
+    "codeforces-2292@cp-competitions": {
+      "signature": "2026-11-27T14:35:00+00:00|8100|Codeforces Round 1138 (Div. 3)|https://codeforces.com/contest/2292",
+      "stamp": "2026-11-24T08:51:45+00:00"
     },
     "codeforces-2289@cp-competitions": {
       "signature": "2026-11-22T09:05:00+00:00|7200|Codeforces Round 1137 (Div. 2)|https://codeforces.com/contest/2289",
